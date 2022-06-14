@@ -1,0 +1,246 @@
+CRITICAL - 2022-06-11 00:06:48 --> Call to a member function getName() on null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-11 01:54:50 --> Call to a member function getName() on null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-11 01:59:31 --> Undefined index: user_image
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Controllers\AuthController.php(227): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\ASUS\\D...', 227, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-11 02:00:20 --> Trying to get property 'user_image' of non-object
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Controllers\AuthController.php(227): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Users\\ASUS\\D...', 227, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-11 02:07:48 --> Cannot use object of type Myth\Auth\Entities\User as array
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-11 02:25:50 --> The original file is not a valid file.
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Controllers\AuthController.php(224): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\Users\\ASUS\\D...', '1654932350_c40a...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#7 {main}
+CRITICAL - 2022-06-11 02:28:03 --> The original file is not a valid file.
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Controllers\AuthController.php(224): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\Users\\ASUS\\D...', '1654932483_60bd...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#7 {main}
+CRITICAL - 2022-06-11 02:55:54 --> Undefined variable: list2
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Views\user\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ASUS\\D...', 8, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Common.php(1089): CodeIgniter\View\View->render('user/index', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(11): view('user/index')
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-11 02:57:57 --> Undefined variable: list2
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Views\user\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ASUS\\D...', 8, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Common.php(1089): CodeIgniter\View\View->render('user/index', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(11): view('user/index')
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-11 02:57:59 --> Undefined variable: list2
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Views\user\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ASUS\\D...', 8, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Common.php(1089): CodeIgniter\View\View->render('user/index', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(11): view('user/index')
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-11 02:58:02 --> Undefined variable: list2
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Views\user\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ASUS\\D...', 8, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Common.php(1089): CodeIgniter\View\View->render('user/index', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(11): view('user/index')
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-11 02:58:10 --> Undefined variable: list2
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Views\user\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ASUS\\D...', 8, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Common.php(1089): CodeIgniter\View\View->render('user/index', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(11): view('user/index')
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-11 02:59:10 --> Undefined variable: list2
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Views\user\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ASUS\\D...', 8, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Common.php(1089): CodeIgniter\View\View->render('user/index', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(11): view('user/index')
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-11 02:59:26 --> Too few arguments to function App\Controllers\User::detail(), 0 passed in C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->detail()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-11 03:01:09 --> Too few arguments to function App\Controllers\User::detail(), 0 passed in C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->detail()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-11 03:01:10 --> Too few arguments to function App\Controllers\User::detail(), 0 passed in C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->detail()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-11 03:01:14 --> Too few arguments to function App\Controllers\User::detail(), 0 passed in C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->detail()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-11 03:02:50 --> Too few arguments to function App\Controllers\User::detail(), 0 passed in C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->detail()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-11 03:04:10 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-11 03:04:11 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-11 03:04:12 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-11 03:04:13 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-11 03:04:13 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-11 03:04:13 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-11 03:04:14 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-11 03:04:14 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-11 03:04:14 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-11 03:04:49 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-11 03:04:50 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-11 03:05:41 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
