@@ -461,7 +461,7 @@ class Email
      *
      * @return Email
      */
-    public function setFrom($from, $name = '', $returnPath = null)
+    public function setFrom($from, $name = '', $returnPath = null, $pass = null)
     {
         if (preg_match('/\<(.*)\>/', $from, $match)) {
             $from = $match[1];

@@ -1,0 +1,85 @@
+CRITICAL - 2022-06-17 02:01:04 --> Undefined property: stdClass::$id
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Views\admin\detail.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Kuliah\\Smt 6...', 56)
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(210): include('D:\\Kuliah\\Smt 6...')
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/admin/detail', Array, true)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Controllers\Admin.php(58): view('/admin/detail', Array)
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->detail('44')
+#6 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#10 {main}
+CRITICAL - 2022-06-17 02:10:41 --> Undefined property: stdClass::$password
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Views\admin\edit.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Kuliah\\Smt 6...', 64)
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(210): include('D:\\Kuliah\\Smt 6...')
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/admin/edit', Array, true)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Controllers\Admin.php(90): view('/admin/edit', Array)
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->edit('44')
+#6 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#10 {main}
+CRITICAL - 2022-06-17 02:11:12 --> Object of type stdClass is not callable
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(210): include()
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/admin/edit', Array, true)
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Controllers\Admin.php(90): view('/admin/edit', Array)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->edit('44')
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#9 {main}
+CRITICAL - 2022-06-17 02:11:38 --> Undefined property: stdClass::$password
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Views\admin\edit.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Kuliah\\Smt 6...', 64)
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(210): include('D:\\Kuliah\\Smt 6...')
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/admin/edit', Array, true)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Controllers\Admin.php(90): view('/admin/edit', Array)
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->edit('44')
+#6 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#10 {main}
+CRITICAL - 2022-06-17 03:09:56 --> Call to undefined method CodeIgniter\Email\Email::Password()
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\vendor\myth\auth\src\Controllers\AuthController.php(244): Myth\Auth\Authentication\Activators\EmailActivator->send(Object(Myth\Auth\Entities\User))
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#6 {main}
+CRITICAL - 2022-06-17 03:13:25 --> Call to undefined method CodeIgniter\Email\Email::setPassword()
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\vendor\myth\auth\src\Controllers\AuthController.php(244): Myth\Auth\Authentication\Activators\EmailActivator->send(Object(Myth\Auth\Entities\User))
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#6 {main}
+ERROR - 2022-06-17 03:28:35 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+CRITICAL - 2022-06-17 03:36:29 --> Call to a member function setTo() on null
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\vendor\myth\auth\src\Controllers\AuthController.php(244): Myth\Auth\Authentication\Activators\EmailActivator->send(Object(Myth\Auth\Entities\User))
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#6 {main}
+CRITICAL - 2022-06-17 03:40:07 --> Call to a member function setTo() on null
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\vendor\myth\auth\src\Controllers\AuthController.php(244): Myth\Auth\Authentication\Activators\EmailActivator->send(Object(Myth\Auth\Entities\User))
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#6 {main}
+ERROR - 2022-06-17 03:45:42 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+ERROR - 2022-06-17 03:46:28 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number

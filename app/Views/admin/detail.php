@@ -5,7 +5,7 @@
         <div class="container pt-4">
             <div class="card">
                 <div class="card-header py-3">
-                    <h5 class="mb-0 text-center"><strong>Hello, <?= $user->username; ?> !</strong></h5>
+                    <h5 class="mb-0 text-center"><strong>Hello, <?= user()->username; ?> !</strong></h5>
                 </div>
                 <div class="card-body">
                     <h1>Biodata <?= $user->username; ?></h1>
@@ -54,13 +54,16 @@
                             </div>
                             <div class="row mt-4">
                                 <div class="col-md-6"><a href="<?= base_url('admin/edit/' . $user->userid) ?>" class="btn btn-warning btn-block">Edit</a></div>
+                                <?php if (user()->username != $user->username) {?>
                                 <div class="col-md-6">
+                                    
                                     <form action="/admin/delete/<?= $user->userid; ?>" method="post" id="delet">
                                         <input type="hidden" name="_method" value="DELETE">
                                         <?= csrf_field(); ?>
                                         <button type="submit" class="btn btn-danger btn-block">Delete</button>
                                     </form>
                                 </div>
+                                <?php }?>
                             </div>
                         </div>
 

@@ -9,7 +9,7 @@ class Email extends BaseConfig
     /**
      * @var string
      */
-    public $fromEmail = 'novalxena32@gmail.com';
+    public $fromEmail = 'uaswf@mnazmiw.my.id';
 
     /**
      * @var string
@@ -61,7 +61,7 @@ class Email extends BaseConfig
      *
      * @var string
      */
-    public $SMTPPass = 'rastafara1';
+    public $SMTPPass = 'wwtzzmsjzxjrhrip';
 
     /**
      * SMTP Port

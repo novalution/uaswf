@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use Myth\Auth\Models\UserModel;
+use Myth\Auth\Password;
 
 class Admin extends BaseController
 {
@@ -75,7 +76,7 @@ class Admin extends BaseController
     public function edit($id)
     {
         $data['title'] = 'User Detail';
-        $this->builder->select('users.id as userid, username, email, user_image, fullname, alamat, jenis_kelamin, deleted_at, tanggal_lahir, tempat_lahir, telepon, created_at, name');
+        $this->builder->select('users.id as userid, username, email, user_image, fullname, alamat, jenis_kelamin, deleted_at, tanggal_lahir, tempat_lahir, telepon, created_at, name, password_hash');
         $this->builder->join('auth_groups_users', 'auth_groups_users.user_id = users.id');
         $this->builder->join('auth_groups', 'auth_groups.id = auth_groups_users.group_id');
         $this->builder->where('users.id', $id);
@@ -99,7 +100,8 @@ class Admin extends BaseController
             $namaavatar = $this->request->getVar('avalama');
         }
         if ($this->request->getVar('password') != $this->request->getVar('passlama')) {
-            $pass = md5($this->request->getVar('password'));
+            // $pass = password_hash($this->request->getVar('password'), PASSWORD_DEFAULT);
+            $pass = Password::hash($this->request->getVar('password'));
         } else {
             $pass = $this->request->getVar('passlama');
         }

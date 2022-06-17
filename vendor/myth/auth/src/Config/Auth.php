@@ -160,8 +160,8 @@ class Auth extends BaseConfig
 	 *
 	 * @var string|null Name of the ActivatorInterface class
 	 */
-	public $requireActivation = null;
-	// public $requireActivation = 'Myth\Auth\Authentication\Activators\EmailActivator';
+	//public $requireActivation = null;
+	public $requireActivation = 'Myth\Auth\Authentication\Activators\EmailActivator';
 
 	/**
 	 * --------------------------------------------------------------------
@@ -316,8 +316,8 @@ class Auth extends BaseConfig
 	 */
 	public $userActivators = [
 		'Myth\Auth\Authentication\Activators\EmailActivator' => [
-			'fromEmail' => null,
-			'fromName' => null,
+			'fromEmail' => "novalxena32@gmail.com",
+			'fromName' => "Email Activation",
 		],
 	];
 

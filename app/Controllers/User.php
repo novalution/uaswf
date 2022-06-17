@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use CodeIgniter\HTTP\Request;
 use Myth\Auth\Models\UserModel;
+use Myth\Auth\Password;
 
 class User extends BaseController
 {
@@ -35,7 +36,7 @@ class User extends BaseController
     public function edit($id)
     {
         $data['title'] = 'User Detail';
-        $this->builder->select('users.id as userid, username, email, user_image, fullname, alamat, jenis_kelamin, deleted_at, tanggal_lahir, tempat_lahir, telepon, created_at, name');
+        $this->builder->select('users.id as userid, username, email, user_image, fullname, alamat, jenis_kelamin, deleted_at, tanggal_lahir, tempat_lahir, telepon, created_at, name, password_hash');
         $this->builder->join('auth_groups_users', 'auth_groups_users.user_id = users.id');
         $this->builder->join('auth_groups', 'auth_groups.id = auth_groups_users.group_id');
         $this->builder->where('users.id', $id);
@@ -61,7 +62,7 @@ class User extends BaseController
         $passbaru = $this->request->getVar('password');
         $passlama = $this->request->getVar('passlama');
         if ($passbaru != $passlama) {
-            $pass = password_hash($passbaru, PASSWORD_DEFAULT);
+            $pass = Password::hash($passbaru, PASSWORD_DEFAULT);
         } else {
             $pass = $this->request->getVar('passlama');
         }
