@@ -48,10 +48,6 @@
                                     <img src="<?= base_url() ?>\img\<?= user()->user_image; ?>" alt="" width="100%">
                                 </div>
                             </div>
-                            <div class="row mt-4">
-                                <div class="col-md-6"><a href="#" class="btn btn-warning btn-block">Edit</a></div>
-                                <div class="col-md-6"><a href="#" class="btn btn-danger btn-block">Delete</a></div>
-                            </div>
                         </div>
 
                     </div>
@@ -59,6 +55,19 @@
             </div>
         </div>
         </div>
+        <div id="viewmodal" style="display: none;"></div>
     </main>
 </section>
+<script>
+    function edit(id) {
+        $.ajax({
+            url: "<?= base_url('/user/edit') ?>/" + id,
+            dataType: "json",
+            success: function(response) {
+                $('#viewmodal').html(response.data).show();
+                $('#editmodal').modal('show');
+            }
+        });
+    }
+</script>
 <?= $this->endSection('content'); ?>

@@ -217,7 +217,6 @@ class AuthController extends Controller
 		}
 
 		// Save the user
-		$namas = $this->request->getVar('namadepan') . " " . $this->request->getVar('namabelakang');
 		if ($this->request->getFile('user_image')->getName() != '') {
 			$avatar = $this->request->getFile('user_image');
 			$namaavatar = $avatar->getRandomName();
@@ -233,9 +232,8 @@ class AuthController extends Controller
 		$this->config->requireActivation === null ? $user->activate() : $user->generateActivateHash();
 
 		// Ensure default group gets assigned if set
-		if (!empty($this->config->defaultUserGroup)) {
-			$users = $users->withGroup($this->config->defaultUserGroup);
-		}
+		$users = $users->withGroup($this->request->getVar('role'));
+		// $users = $users->withGroup($this->config->defaultUserGroup);
 
 		if (!$users->save($user)) {
 			return redirect()->back()->withInput()->with('errors', $users->errors());

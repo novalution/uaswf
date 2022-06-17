@@ -23,7 +23,7 @@ class Auth extends BaseConfig
 	 * @var string
 	 */
 
-	public $defaultUserGroup = 'user';
+	public $defaultUserGroup;
 
 	/**
 	 * --------------------------------------------------------------------
@@ -188,7 +188,7 @@ class Auth extends BaseConfig
 	 *
 	 * @var bool
 	 */
-	public $allowRemembering = false;
+	public $allowRemembering = true;
 
 	/**
 	 * --------------------------------------------------------------------

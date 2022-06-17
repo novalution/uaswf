@@ -1,0 +1,1191 @@
+CRITICAL - 2022-06-15 00:09:57 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:09:58 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:09:58 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:02 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:03 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:03 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:03 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:04 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:04 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:04 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:05 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:05 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:05 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:05 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:05 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:06 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:06 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:06 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:06 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:07 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:07 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:07 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:08 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:08 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:08 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:09 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:09 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:09 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:10 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:11 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:11 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:14 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:15 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:15 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:15 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:16 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:16 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:16 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:16 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:17 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:17 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:17 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:17 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:18 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:18 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:18 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:10:43 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:11:47 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:11:48 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:11:48 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:11:48 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:11:49 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:11:49 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:24:12 --> Undefined variable: userid
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Views\user\index.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ASUS\\D...', 52, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Common.php(1089): CodeIgniter\View\View->render('user/index', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(19): view('user/index', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-15 00:25:04 --> Too few arguments to function App\Controllers\User::edit(), 0 passed in C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-15 00:27:39 --> Too few arguments to function App\Controllers\User::edit(), 0 passed in C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-15 00:28:13 --> Call to undefined method Myth\Auth\Models\UserModel::getVar
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Model->__call('getVar', Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('35')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:28:33 --> Call to undefined method Myth\Auth\Models\UserModel::getPost
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Model->__call('getPost', Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('35')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:28:39 --> Call to undefined method Myth\Auth\Models\UserModel::getget
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Model->__call('getget', Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('35')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:28:45 --> Call to undefined method Myth\Auth\Models\UserModel::getvar
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Model->__call('getvar', Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('35')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 00:28:49 --> Call to undefined method Myth\Auth\Models\UserModel::getVar
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Model->__call('getVar', Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('35')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:08:54 --> Undefined variable: user
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Views\admin\list.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ASUS\\D...', 30, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Common.php(1089): CodeIgniter\View\View->render('/admin/list', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\Admin.php(36): view('/admin/list', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\Admin->getData()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-15 01:08:55 --> Undefined variable: user
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Views\admin\list.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ASUS\\D...', 30, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Common.php(1089): CodeIgniter\View\View->render('/admin/list', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\Admin.php(36): view('/admin/list', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\Admin->getData()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-15 01:09:06 --> Undefined variable: user
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Views\admin\list.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ASUS\\D...', 30, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Common.php(1089): CodeIgniter\View\View->render('/admin/list', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\Admin.php(36): view('/admin/list', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\Admin->getData()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-15 01:09:46 --> Undefined variable: user
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Views\admin\list.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ASUS\\D...', 28, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Common.php(1089): CodeIgniter\View\View->render('/admin/list', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\Admin.php(36): view('/admin/list', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\Admin->getData()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-15 01:10:02 --> Undefined variable: user
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Views\admin\list.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ASUS\\D...', 28, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Common.php(1089): CodeIgniter\View\View->render('/admin/list', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\Admin.php(36): view('/admin/list', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\Admin->getData()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-15 01:10:08 --> Undefined variable: user
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Views\admin\list.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ASUS\\D...', 28, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Common.php(1089): CodeIgniter\View\View->render('/admin/list', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\Admin.php(36): view('/admin/list', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\Admin->getData()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-15 01:10:12 --> Undefined variable: user
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Views\admin\list.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ASUS\\D...', 28, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Common.php(1089): CodeIgniter\View\View->render('/admin/list', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\Admin.php(36): view('/admin/list', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\Admin->getData()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+ERROR - 2022-06-15 01:17:57 --> Column 'id' in field list is ambiguous
+CRITICAL - 2022-06-15 01:17:57 --> Column 'id' in field list is ambiguous
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`....', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\Admin.php(51): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\Admin->detail('41')
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+ERROR - 2022-06-15 01:18:11 --> Column 'id' in field list is ambiguous
+CRITICAL - 2022-06-15 01:18:11 --> Column 'id' in field list is ambiguous
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`....', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\Admin.php(51): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\Admin->detail('41')
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+ERROR - 2022-06-15 01:18:16 --> Column 'id' in field list is ambiguous
+CRITICAL - 2022-06-15 01:18:16 --> Column 'id' in field list is ambiguous
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`....', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\Admin.php(51): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\Admin->detail('41')
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+ERROR - 2022-06-15 01:18:40 --> Column 'id' in field list is ambiguous
+CRITICAL - 2022-06-15 01:18:40 --> Column 'id' in field list is ambiguous
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`....', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\Admin.php(51): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\Admin->detail('41')
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-15 01:36:12 --> Call to undefined method Myth\Auth\Models\UserModel::getVar
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(37): CodeIgniter\Model->__call('getVar', Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('38')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:40:58 --> Too few arguments to function App\Controllers\User::edit(), 0 passed in C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-15 01:42:53 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:42:57 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:42:57 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:42:57 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:42:58 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:42:58 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:42:58 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:42:58 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:42:58 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:42:58 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:42:59 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:42:59 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:42:59 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:46:26 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:46:27 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:46:28 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:46:28 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:46:29 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:46:33 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:48:01 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:48:01 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:48:02 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:48:02 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:48:02 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:48:02 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:48:03 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:48:04 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:48:04 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:48:05 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:48:05 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:48:05 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:48:06 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:48:06 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:48:06 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:48:07 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:49:35 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:49:35 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:49:36 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:49:40 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:50:06 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:50:06 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 01:50:10 --> Trying to access array offset on value of type null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ASUS\\D...', 46, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('undefined')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+ERROR - 2022-06-15 08:12:36 --> Unknown column 'users.deleted_at' in 'where clause'
+CRITICAL - 2022-06-15 08:12:36 --> Unknown column 'users.deleted_at' in 'where clause'
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '38')
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('38')
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Filters\LoginFilter.php(44): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('logout', 'before')
+#11 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+ERROR - 2022-06-15 08:13:36 --> Unknown column 'users.deleted_at' in 'where clause'
+CRITICAL - 2022-06-15 08:13:36 --> Unknown column 'users.deleted_at' in 'where clause'
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '38')
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('38')
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Filters\LoginFilter.php(44): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('logout', 'before')
+#11 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+ERROR - 2022-06-15 08:13:38 --> Unknown column 'users.deleted_at' in 'where clause'
+CRITICAL - 2022-06-15 08:13:38 --> Unknown column 'users.deleted_at' in 'where clause'
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '38')
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('38')
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Filters\RoleFilter.php(40): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#10 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/index', 'before')
+#11 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+ERROR - 2022-06-15 08:13:55 --> Unknown column 'users.deleted_at' in 'where clause'
+CRITICAL - 2022-06-15 08:13:55 --> Unknown column 'users.deleted_at' in 'where clause'
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '38')
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('38')
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Filters\RoleFilter.php(40): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#10 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/index', 'before')
+#11 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+ERROR - 2022-06-15 08:13:57 --> Unknown column 'users.deleted_at' in 'where clause'
+CRITICAL - 2022-06-15 08:13:57 --> Unknown column 'users.deleted_at' in 'where clause'
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '38')
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('38')
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Filters\LoginFilter.php(44): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/', 'before')
+#11 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+ERROR - 2022-06-15 08:14:36 --> Unknown column 'users.deleted_at' in 'where clause'
+CRITICAL - 2022-06-15 08:14:36 --> Unknown column 'users.deleted_at' in 'where clause'
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '38')
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('38')
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Filters\LoginFilter.php(44): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/', 'before')
+#11 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+ERROR - 2022-06-15 08:14:46 --> Unknown column 'users.deleted_at' in 'where clause'
+CRITICAL - 2022-06-15 08:14:46 --> Unknown column 'users.deleted_at' in 'where clause'
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '38')
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('38')
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Filters\LoginFilter.php(44): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/', 'before')
+#11 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+ERROR - 2022-06-15 08:15:44 --> Unknown column 'users.deleted_at' in 'where clause'
+CRITICAL - 2022-06-15 08:15:44 --> Unknown column 'users.deleted_at' in 'where clause'
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '38')
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('38')
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Filters\LoginFilter.php(44): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/', 'before')
+#11 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+ERROR - 2022-06-15 08:19:24 --> Unknown column 'users.deleted_at' in 'where clause'
+CRITICAL - 2022-06-15 08:19:24 --> Unknown column 'users.deleted_at' in 'where clause'
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '38')
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('38')
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Filters\LoginFilter.php(44): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/', 'before')
+#11 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+ERROR - 2022-06-15 08:19:29 --> Unknown column 'users.deleted_at' in 'where clause'
+CRITICAL - 2022-06-15 08:19:29 --> Unknown column 'users.deleted_at' in 'where clause'
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '38')
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('38')
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\vendor\myth\auth\src\Filters\LoginFilter.php(44): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/', 'before')
+#11 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+CRITICAL - 2022-06-15 08:27:09 --> Too few arguments to function App\Controllers\User::edit(), 0 passed in C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-15 08:30:04 --> Undefined property: App\Controllers\User::$builder
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\ASUS\\D...', 35, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('38')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 08:35:06 --> Undefined property: App\Controllers\User::$builder
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\ASUS\\D...', 35, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('38')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-15 08:35:34 --> Invalid file: /admin/edit.php
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/admin/edit.php')
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Common.php(1089): CodeIgniter\View\View->render('/admin/edit', Array, true)
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\User.php(49): view('/admin/edit', Array)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\User->edit('38')
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#8 {main}
+CRITICAL - 2022-06-15 09:02:22 --> syntax error, unexpected '}', expecting ';'
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ASUS\\D...')
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}

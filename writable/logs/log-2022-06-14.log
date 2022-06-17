@@ -1,0 +1,85 @@
+CRITICAL - 2022-06-14 04:11:01 --> Undefined property: stdClass::$id
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Views\admin\detail.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\ASUS\\D...', 57, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Common.php(1089): CodeIgniter\View\View->render('/admin/detail', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\Admin.php(58): view('/admin/detail', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\Admin->detail('29')
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-14 04:11:19 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\Admin.php(62): CodeIgniter\BaseModel->delete()
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\Admin->delete('juniaraldi')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#7 {main}
+CRITICAL - 2022-06-14 04:23:07 --> Undefined property: stdClass::$id
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Views\admin\detail.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\ASUS\\D...', 58, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Common.php(1089): CodeIgniter\View\View->render('/admin/detail', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\Admin.php(58): view('/admin/detail', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\Admin->detail('29')
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-14 09:59:58 --> Undefined property: App\Controllers\Admin::$userModel
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\Admin.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\ASUS\\D...', 66, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\Admin->delete('29')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-14 10:00:07 --> Undefined property: App\Controllers\Admin::$userModel
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\Admin.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\ASUS\\D...', 66, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\Admin->delete('29')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-14 10:14:07 --> Undefined variable: user
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Views\admin\list.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ASUS\\D...', 19, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Common.php(1089): CodeIgniter\View\View->render('/admin/list', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\Admin.php(36): view('/admin/list', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\Admin->getData()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-14 10:14:09 --> Undefined variable: user
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Views\admin\list.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ASUS\\D...', 19, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Common.php(1089): CodeIgniter\View\View->render('/admin/list', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\Admin.php(36): view('/admin/list', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\Admin->getData()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-14 10:14:22 --> Undefined variable: user
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Views\admin\list.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ASUS\\D...', 19, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Common.php(1089): CodeIgniter\View\View->render('/admin/list', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\app\Controllers\Admin.php(36): view('/admin/list', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(832): App\Controllers\Admin->getData()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\UAS2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}

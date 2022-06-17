@@ -53,8 +53,14 @@
                                 </div>
                             </div>
                             <div class="row mt-4">
-                                <div class="col-md-6"><a href="#" class="btn btn-warning btn-block">Edit</a></div>
-                                <div class="col-md-6"><a href="#" class="btn btn-danger btn-block">Delete</a></div>
+                                <div class="col-md-6"><a href="<?= base_url('admin/edit/' . $user->userid) ?>" class="btn btn-warning btn-block">Edit</a></div>
+                                <div class="col-md-6">
+                                    <form action="/admin/delete/<?= $user->userid; ?>" method="post" id="delet">
+                                        <input type="hidden" name="_method" value="DELETE">
+                                        <?= csrf_field(); ?>
+                                        <button type="submit" class="btn btn-danger btn-block">Delete</button>
+                                    </form>
+                                </div>
                             </div>
                         </div>
 
@@ -65,4 +71,23 @@
         </div>
     </main>
 </section>
+<script>
+    $('#delet').submit(function(e) {
+        e.preventDefault();
+        $.ajax({
+            type: $(this).attr('method'),
+            url: $(this).attr('action'),
+            success: function(response) {
+                var respon = JSON.parse(response);
+                Swal.fire({
+                    title: 'Berhasil!',
+                    text: respon.sukses,
+                    icon: 'success',
+                    confirmButtonText: 'Ok'
+                });
+                window.location.href = 'admin/index'
+            }
+        });
+    })
+</script>
 <?= $this->endSection('content'); ?>

@@ -39,14 +39,20 @@
                         </div>
                         <div class="form-group">
                             <label for="telepon">No Telepon</label>
-                            <input type="int" class="form-control" name="telepon" placeholder="No Telepon" value="<?= old('telepon') ?>">
+                            <input type="text" class="form-control" name="telepon" placeholder="No Telepon" value="<?= old('telepon') ?>">
                         </div>
                         <div class="form-group">
                             <label for="email"><?= lang('Auth.email') ?></label>
                             <input type="email" class="form-control <?php if (session('errors.email')) : ?>is-invalid<?php endif ?>" name="email" aria-describedby="emailHelp" placeholder="<?= lang('Auth.email') ?>" value="<?= old('email') ?>">
                             <small id="emailHelp" class="form-text text-muted"><?= lang('Auth.weNeverShare') ?></small>
                         </div>
-
+                        <div class="form-group">
+                            <label for="role">Instansi:</label>
+                            <select name="role" id="role">
+                                <option value="user_uns">UNS</option>
+                                <option value="user_non_uns">non UNS</option>
+                            </select>
+                        </div>
                         <div class="form-group">
                             <label for="username"><?= lang('Auth.username') ?></label>
                             <input type="text" class="form-control <?php if (session('errors.username')) : ?>is-invalid<?php endif ?>" name="username" placeholder="<?= lang('Auth.username') ?>" value="<?= old('username') ?>">

@@ -19,7 +19,7 @@
                 <a href=" <?php echo base_url('/user/index'); ?>" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
                     <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>My Profile</span>
                 </a>
-                <a href=" <?php echo base_url('/user/index'); ?>" class="list-group-item list-group-item-action py-2 ">
+                <a href="<?= base_url('user/edit/' . user()->id) ?>" class="list-group-item list-group-item-action py-2 ">
                     <i class="fas fa-chart-area fa-fw me-3"></i><span>Edit Profile </span>
                 </a>
                 <hr>
