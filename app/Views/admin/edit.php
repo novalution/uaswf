@@ -21,7 +21,7 @@
                                     </div>
                                     <div class="form-group mb-2">
                                         <label for="alamat">Alamat</label>
-                                        <textarea type="text" class="form-control" name="alamat" placeholder="Alamat" value="<?= $user->alamat; ?>"></textarea>
+                                        <textarea type="text" class="form-control" name="alamat" placeholder="Alamat"><?= $user->alamat; ?></textarea>
                                     </div>
                                     <div class="form-group mb-2">
                                         <label for="tempat_lahir">Tempat Lahir</label>
@@ -31,15 +31,11 @@
                                         <label for="tanggal_lahir">Tanggal Lahir</label>
                                         <input type="date" class="form-control" name="tanggal_lahir" placeholder="Tanggal Lahir" value="<?= $user->tanggal_lahir; ?>">
                                     </div>
-                                    <span class="my-3">Jenis Kelamin: </span>
-                                    <div class="form-check form-check-inline mx-2 my-3">
-                                        <input class="form-check-input" type="radio" name="jenis_kelamin" id="flexRadioDefault1" value="Laki-Laki" checked />
-                                        <label class="form-check-label" for="flexRadioDefault1"> Laki-laki </label>
-                                    </div>
-                                    <div class="form-check form-check-inline my-3">
-                                        <input class="form-check-input" type="radio" name="jenis_kelamin" id="flexRadioDefault2" value="Perempuan" />
-                                        <label class="form-check-label" for="flexRadioDefault2"> Perempuan </label>
-                                    </div>
+                                    <label for="jenis_kelamin">Jenis Kelamin</label>
+                                        <select name="jenis_kelamin" id="jenis_kelamin" form="form" class="form-select form-control">
+                                            <option value="Laki-laki" <?php if ($user->jenis_kelamin == "Laki-laki") {echo "selected";}?>>Laki-laki</option>
+                                            <option value="Perempuan" <?php if ($user->jenis_kelamin == "Perempuan") {echo "selected";}?>>Perempuan</option>
+                                        </select>
                                     <div class="form-group my-2">
                                         <label for="telepon">No Telepon</label>
                                         <input type="text" class="form-control" name="telepon" placeholder="No Telepon" value="<?= $user->telepon; ?>">

@@ -71,9 +71,9 @@ class Admin extends BaseController
 
             return view('/admin/labs', $data);
     }
-    public function labdetail($id = 0){
+    public function labDetail($id = 0){
         $data['title'] = 'Lab Detail';
-            $query = $this->labsBuilder->where('lab_id', $id) -> get();
+            $query = $this->labsBuilder->getWhere(['lab_id' => $id]);
             $data['lab'] = $query->getRow();
 
             if (empty($data['lab'])) {
@@ -81,6 +81,72 @@ class Admin extends BaseController
             }
 
             return view('/admin/labsdetail', $data);
+    }
+    public function labEdit($id = 0){
+        $data['title'] = 'Edit Lab Details';
+            $query = $this->labsBuilder->getWhere(['lab_id' => $id]);
+            $data['lab'] = $query->getRow();
+
+            if (empty($data['lab'])) {
+                return redirect()->to('/admin/labs/'.$id);
+            }
+
+            return view('/admin/labsedit', $data);
+    }
+    public function labDelete($id)
+    {
+        if ($this->request->isAjax()) {
+            $this->labsBuilder->delete(['lab_id' => $id]);
+            $pesan = [
+                'sukses' => "Successfully deleted lab data with ID=$id."
+            ];
+            echo json_encode($pesan);
+        } else {
+            exit('Lab data cannot be deleted.');
+        }
+    }
+    public function labUpdate($id)
+    {
+        if ($this->request->getFile('lab_image')->getName() != '') {
+            $image = $this->request->getFile('lab_image');
+            $namaImage = $image->getRandomName();
+            $image->move(ROOTPATH . 'public/img/', $namaImage);
+        } else {
+            $namaImage = $this->request->getVar('imglama');
+        }
+        $data = [
+            'lab_name' => $this->request->getVar('lab_name'),
+            'capacity' => $this->request->getVar('capacity'),
+            'status' => $this->request->getVar('status'),
+            'description' => $this->request->getVar('description'),
+            'lab_image' => $namaImage
+        ];
+        $this->labsBuilder->where('lab_id', $id);
+        $this->labsBuilder->update($data);
+        return redirect()->to('/admin/labs/'.$id);
+    }
+    public function addLab()
+    {
+        return view('admin/addlab');
+    }
+    public function newLab()
+    {
+        if ($this->request->getFile('lab_image')->getName() != '') {
+            $image = $this->request->getFile('lab_image');
+            $namaImage = $image->getRandomName();
+            $image->move(ROOTPATH . 'public/img/', $namaImage);
+        } else {
+            $namaImage = 'default.jpg';
+        }
+        $data = [
+            'lab_name' => $this->request->getVar('lab_name'),
+            'capacity' => $this->request->getVar('capacity'),
+            'status' => $this->request->getVar('status'),
+            'description' => $this->request->getVar('description'),
+            'lab_image' => $namaImage
+        ];
+        $this->labsBuilder->insert($data);
+        return redirect()->to('/admin/labs/');
     }
     public function delete($id)
     {
@@ -141,7 +207,7 @@ class Admin extends BaseController
             'password_hash' => $pass,
             'user_image' => $namaavatar
         ]);
-        return redirect()->to('/admin');
+        return redirect()->to('/admin/'.$id);
     }
     // public function edit($id)
     // {

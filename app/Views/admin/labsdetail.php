@@ -27,7 +27,7 @@
                                                                 echo "green";
                                                             } else {
                                                                 echo "red";}?>
-                                                           "> <?= $lab->status; ?></td>
+                                                           "> <?= ucfirst($lab->status); ?></td>
                                 </tr>
                                 <tr>
                                     <td class="fw-bold">Description</td>
@@ -44,7 +44,7 @@
                             <div class="row mt-4">
                                 <div class="col"><a href="<?= base_url('admin/labs/edit/' . $lab->lab_id) ?>" class="btn btn-warning btn-block">Edit</a></div>
                                 <div class="col">
-                                    <form action="/admin/labs/delete/<?= $lab->lab_id; ?>" method="post" id="delet">
+                                    <form action="/admin/labs/delete/<?= $lab->lab_id; ?>" method="post" id="delete">
                                         <input type="hidden" name="_method" value="DELETE">
                                         <?= csrf_field(); ?>
                                         <button type="submit" class="btn btn-danger btn-block">Delete</button>
@@ -52,7 +52,6 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -61,7 +60,7 @@
     </main>
 </section>
 <script>
-    $('#delet').submit(function(e) {
+    $('#delete').submit(function(e) {
         e.preventDefault();
         $.ajax({
             type: $(this).attr('method'),
@@ -74,7 +73,7 @@
                     icon: 'success',
                     confirmButtonText: 'Ok'
                 });
-                window.location.href = 'admin/index'
+                window.location.href = 'admin/labs'
             }
         });
     })

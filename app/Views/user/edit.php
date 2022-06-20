@@ -14,46 +14,42 @@
                             <form action="<?= base_url('user/update/' . user()->id) ?>" method="post" enctype="multipart/form-data" id="form">
                                 <input type="hidden" name="_method" value="PUT">
                                 <?= csrf_field() ?>
-                                <div class="form-group">
+                                <div class="form-group mb-2">
                                     <label for="fullname">Nama Lengkap</label>
                                     <input type="text" class="form-control" name="fullname" placeholder="Nama Belakang" value="<?= user()->fullname; ?>">
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group mb-2">
                                     <label for="alamat">Alamat</label>
-                                    <textarea type="text" class="form-control" name="alamat" placeholder="Alamat" value="<?= user()->alamat; ?>"></textarea>
+                                    <textarea type="text" class="form-control" name="alamat" placeholder="Alamat"><?= user()->alamat; ?></textarea>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group mb-2">
                                     <label for="tempat_lahir">Tempat Lahir</label>
                                     <input type="text" class="form-control" name="tempat_lahir" placeholder="Tempat Lahir" value="<?= user()->tempat_lahir; ?>">
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group mb-2">
                                     <label for="tanggal_lahir">Tanggal Lahir</label>
                                     <input type="date" class="form-control" name="tanggal_lahir" placeholder="Tanggal Lahir" value="<?= user()->tanggal_lahir; ?>">
                                 </div>
-                                <span class="my-3">Jenis Kelamin: </span>
-                                <div class="form-check form-check-inline mx-2 my-3">
-                                    <input class="form-check-input" type="radio" name="jenis_kelamin" id="flexRadioDefault1" value="Laki-Laki" checked />
-                                    <label class="form-check-label" for="flexRadioDefault1"> Laki-laki </label>
-                                </div>
-                                <div class="form-check form-check-inline my-3">
-                                    <input class="form-check-input" type="radio" name="jenis_kelamin" id="flexRadioDefault2" value="Perempuan" />
-                                    <label class="form-check-label" for="flexRadioDefault2"> Perempuan </label>
-                                </div>
-                                <div class="form-group">
+                                <label for="jenis_kelamin">Jenis Kelamin</label>
+                                        <select name="jenis_kelamin" id="jenis_kelamin" form="form" class="form-select form-control">
+                                            <option value="Laki-laki" <?php if ($user->jenis_kelamin == "Laki-laki") {echo "selected";}?>>Laki-laki</option>
+                                            <option value="Perempuan" <?php if ($user->jenis_kelamin == "Perempuan") {echo "selected";}?>>Perempuan</option>
+                                        </select>
+                                <div class="form-group mb-2">
                                     <label for="telepon">No Telepon</label>
                                     <input type="text" class="form-control" name="telepon" placeholder="No Telepon" value="<?= user()->telepon; ?>">
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group mb-2">
                                     <label for="email"><?= lang('Auth.email') ?></label>
                                     <input type="email" class="form-control <?php if (session('errors.email')) : ?>is-invalid<?php endif ?>" name="email" aria-describedby="emailHelp" placeholder="<?= lang('Auth.email') ?>" value="<?= user()->email; ?>">
                                     <small id="emailHelp" class="form-text text-muted"><?= lang('Auth.weNeverShare') ?></small>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group mb-2">
                                     <label for="username"><?= lang('Auth.username') ?></label>
                                     <input type="text" class="form-control <?php if (session('errors.username')) : ?>is-invalid<?php endif ?>" name="username" placeholder="<?= lang('Auth.username') ?>" value="<?= user()->username ?>">
                                 </div>
 
-                                <div class="form-group">
+                                <div class="form-group mb-2">
                                     <label for="password"><?= lang('Auth.password') ?></label>
                                     <input type="password" name="password" class="form-control <?php if (session('errors.password')) : ?>is-invalid<?php endif ?>" placeholder="<?= lang('Auth.password') ?>" autocomplete="off">
                                 </div>

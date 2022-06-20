@@ -35,7 +35,7 @@
                                                                 echo "green";
                                                             } else {
                                                                 echo "red";}?>
-                                                           "><?= $item->status ?></td>
+                                                           "><?= ucfirst($item->status) ?></td>
                                                             <td>
                                                                 <a href="<?= base_url('admin/labs/' . $item->lab_id) ?>" class="btn btn-primary btn-block">Detail</a>
                                                             </td>

@@ -92,3 +92,40 @@ CRITICAL - 2022-06-20 01:39:20 --> Undefined variable $item
 #8 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #9 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
 #10 {main}
+CRITICAL - 2022-06-20 08:53:22 --> Undefined property: stdClass::$user_image
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Views\admin\labsedit.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Kuliah\\Smt 6...', 39)
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(210): include('D:\\Kuliah\\Smt 6...')
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/admin/labsedit', Array, true)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Controllers\Admin.php(94): view('/admin/labsedit', Array)
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->labEdit('2')
+#6 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#10 {main}
+CRITICAL - 2022-06-20 09:11:50 --> Undefined variable $item
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Views\admin\labsedit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Smt 6...', 28)
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(210): include('D:\\Kuliah\\Smt 6...')
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/admin/labsedit', Array, true)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Controllers\Admin.php(94): view('/admin/labsedit', Array)
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->labEdit('2')
+#6 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#10 {main}
+ERROR - 2022-06-20 09:45:54 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-06-20 09:45:54 --> Unknown column 'id' in 'where clause'
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `labs` S...', 0)
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `labs` S...')
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `labs` S...')
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `labs` S...', Array, false)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Controllers\Admin.php(125): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->labUpdate('2')
+#6 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#10 {main}
