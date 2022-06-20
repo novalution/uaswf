@@ -44,7 +44,8 @@ $routes->get('/admin', 'Admin::index', ['filter' => 'role:admin']);
 $routes->get('/admin/index', 'Admin::index', ['filter' => 'role:admin']);
 $routes->get('/admin/data', 'Admin::getData', ['filter' => 'role:admin']);
 $routes->delete('/admin/delete/(:segment)', 'Admin::delete/$1', ['filter' => 'role:admin']);
-$routes->get('/user/edit/(:segment)', 'Admin::edit/$1');
+$routes->get('/admin/labs', 'Admin::labs', ['filter' => 'role:admin']);
+$routes->get('/admin/labs/(:any)', 'Admin::labdetail/$1', ['filter' => 'role:admin']);
 $routes->get('/admin/edit/(:segment)', 'Admin::edit/$1', ['filter' => 'role:admin']);
 $routes->get('/admin/(:any)', 'Admin::detail/$1', ['filter' => 'role:admin']);
 

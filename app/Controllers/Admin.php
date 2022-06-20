@@ -15,6 +15,7 @@ class Admin extends BaseController
         // $this->config = config('Auth');
         $this->db       = \Config\Database::connect();
         $this->builder = $this->db->table('users');
+        $this->labsBuilder = $this->db->table('labs');
     }
     public function index()
     {
@@ -57,6 +58,29 @@ class Admin extends BaseController
         }
 
         return view('/admin/detail', $data);
+    }
+    public function labs()
+    {
+        $data['title'] = 'Lab List';
+            $query = $this->labsBuilder->get();
+            $data['labs'] = $query->getResult();
+
+            if (empty($data['labs'])) {
+                return redirect()->to('/admin');
+            }
+
+            return view('/admin/labs', $data);
+    }
+    public function labdetail($id = 0){
+        $data['title'] = 'Lab Detail';
+            $query = $this->labsBuilder->where('lab_id', $id) -> get();
+            $data['lab'] = $query->getRow();
+
+            if (empty($data['lab'])) {
+                return redirect()->to('/admin/labs');
+            }
+
+            return view('/admin/labsdetail', $data);
     }
     public function delete($id)
     {

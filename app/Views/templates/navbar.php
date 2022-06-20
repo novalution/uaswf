@@ -5,26 +5,32 @@
         <div class="position-sticky">
             <div class="list-group list-group-flush mx-3 mt-4">
                 <?php if (in_groups('admin')) : ?>
-                    <div class="sidebar-heading">
-                        User Management
-                    </div>
+                    <h5 class="sidebar-heading">
+                        Site Management
+                    </h5>
                     <a href="<?= base_url('/admin/index'); ?>" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
-                        <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>User List</span>
+                        <i class="fas fa-users fa-fw me-3"></i><span>User List</span>
+                    </a>
+                    <a href="<?= base_url('/admin/labs'); ?>" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
+                        <i class="fas fa-network-wired fa-fw me-3"></i><span>Lab List</span>
                     </a>
                     <hr>
                 <?php endif; ?>
-                <div class="sidebar-heading">
-                    User Profile
-                </div>
+                <h5 class="sidebar-heading">
+                    User Menu
+                </h5>
                 <a href=" <?php echo base_url('/user/index'); ?>" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
-                    <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>My Profile</span>
+                    <i class="fas fa-user-alt fa-fw me-3"></i><span>My Profile</span>
                 </a>
-                <a href="<?= base_url('user/edit/' . user()->id) ?>" class="list-group-item list-group-item-action py-2 ">
-                    <i class="fas fa-chart-area fa-fw me-3"></i><span>Edit Profile </span>
+                <a href=" <?php echo base_url('/user/reservation'); ?>" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
+                    <i class="fas fa-file-invoice fa-fw me-3"></i><span>Reservation</span>
+                </a>
+                <a href=" <?php echo base_url('/user/labs'); ?>" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
+                    <i class="fas fa-network-wired fa-fw me-3"></i><span>Labs</span>
                 </a>
                 <hr>
                 <a href=" <?php echo base_url('logout'); ?>" class="list-group-item list-group-item-action py-2 ">
-                    <i class="fas fa-chart-area fa-fw me-3"></i><span>Logout </span>
+                    <i class="fas fa-sign-out-alt fa-fw me-3"></i><span>Logout </span>
                 </a>
             </div>
         </div>

@@ -1,0 +1,94 @@
+ERROR - 2022-06-20 00:32:52 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-06-20 00:32:52 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\vendor\myth\auth\src\Models\LoginModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(93): Myth\Auth\Models\LoginModel->getRememberToken('7b4cdb8dd20695a...')
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\vendor\myth\auth\src\Filters\LoginFilter.php(44): Myth\Auth\Authentication\LocalAuthenticator->check()
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#6 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/', 'before')
+#7 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#10 {main}
+ERROR - 2022-06-20 01:26:10 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-06-20 01:26:10 --> Unknown column 'id' in 'where clause'
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Controllers\Admin.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->labs()
+#6 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#10 {main}
+CRITICAL - 2022-06-20 01:30:38 --> Undefined variable $data
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Views\admin\labsdetail.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Smt 6...', 18)
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(210): include('D:\\Kuliah\\Smt 6...')
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/admin/labsdeta...', Array, true)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Controllers\Admin.php(84): view('/admin/labsdeta...', Array)
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->labdetail('1')
+#6 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#10 {main}
+CRITICAL - 2022-06-20 01:31:38 --> Undefined variable $data
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Views\admin\labsdetail.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Smt 6...', 18)
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(210): include('D:\\Kuliah\\Smt 6...')
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/admin/labsdeta...', Array, true)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Controllers\Admin.php(84): view('/admin/labsdeta...', Array)
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->labdetail('1')
+#6 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#10 {main}
+CRITICAL - 2022-06-20 01:31:41 --> Undefined variable $data
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Views\admin\labsdetail.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Smt 6...', 18)
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(210): include('D:\\Kuliah\\Smt 6...')
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/admin/labsdeta...', Array, true)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Controllers\Admin.php(84): view('/admin/labsdeta...', Array)
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->labdetail('1')
+#6 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#10 {main}
+CRITICAL - 2022-06-20 01:32:01 --> Undefined variable $data
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Views\admin\labsdetail.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Smt 6...', 18)
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(210): include('D:\\Kuliah\\Smt 6...')
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/admin/labsdeta...', Array, true)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Controllers\Admin.php(84): view('/admin/labsdeta...', Array)
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->labdetail('1')
+#6 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#10 {main}
+CRITICAL - 2022-06-20 01:35:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::find()
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->labdetail('detail', '1')
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#5 {main}
+CRITICAL - 2022-06-20 01:39:20 --> Undefined variable $item
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Views\admin\labsdetail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Smt 6...', 26)
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(210): include('D:\\Kuliah\\Smt 6...')
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/admin/labsdeta...', Array, true)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Controllers\Admin.php(83): view('/admin/labsdeta...', Array)
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->labdetail('1')
+#6 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#10 {main}

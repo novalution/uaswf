@@ -83,3 +83,72 @@ ERROR - 2022-06-17 03:45:42 --> Email: sendWithSmtp throwed fsockopen(): SSL ope
 error:1408F10B:SSL routines:ssl3_get_record:wrong version number
 ERROR - 2022-06-17 03:46:28 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
 error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+CRITICAL - 2022-06-17 08:42:33 --> Undefined variable $user
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Views\user\index.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Smt 6...', 52)
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(210): include('D:\\Kuliah\\Smt 6...')
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('user/index', Array, true)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Controllers\User.php(23): view('user/index', Array)
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#10 {main}
+CRITICAL - 2022-06-17 08:42:57 --> Too few arguments to function App\Controllers\User::edit(), 0 passed in D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->edit()
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#5 {main}
+CRITICAL - 2022-06-17 08:45:22 --> Too few arguments to function App\Controllers\User::edit(), 0 passed in D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->edit()
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#5 {main}
+CRITICAL - 2022-06-17 08:45:56 --> Too few arguments to function App\Controllers\User::edit(), 0 passed in D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->edit()
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#5 {main}
+CRITICAL - 2022-06-17 09:44:33 --> Attempt to read property "lab_image" on string
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Views\admin\labs.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Kuliah\\Smt 6...', 32)
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(210): include('D:\\Kuliah\\Smt 6...')
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/admin/labs', Array, true)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Controllers\Admin.php(73): view('/admin/labs', Array)
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->labs()
+#6 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#10 {main}
+CRITICAL - 2022-06-17 09:46:00 --> Attempt to read property "lab_image" on string
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Views\admin\labs.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Kuliah\\Smt 6...', 32)
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(210): include('D:\\Kuliah\\Smt 6...')
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/admin/labs', Array, true)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Controllers\Admin.php(73): view('/admin/labs', Array)
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->labs()
+#6 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#10 {main}
+CRITICAL - 2022-06-17 09:47:58 --> Attempt to read property "lab_image" on string
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Views\admin\labs.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Kuliah\\Smt 6...', 32)
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(210): include('D:\\Kuliah\\Smt 6...')
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/admin/labs', Array, true)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Controllers\Admin.php(72): view('/admin/labs', Array)
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->labs()
+#6 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#10 {main}

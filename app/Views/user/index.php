@@ -13,31 +13,31 @@
                         <div class="col-md-8">
                             <table class="table table-striped">
                                 <tr>
-                                    <td>Nama</td>
+                                    <td class="fw-bold">Nama</td>
                                     <td> <?= user()->fullname; ?></td>
                                 </tr>
                                 <tr>
-                                    <td>Alamat</td>
+                                    <td class="fw-bold">Alamat</td>
                                     <td> <?= user()->alamat; ?></td>
                                 </tr>
                                 <tr>
-                                    <td>Tempat Tanggal Lahir</td>
+                                    <td class="fw-bold">Tempat Tanggal Lahir</td>
                                     <td> <?= user()->tempat_lahir . '/' . user()->tanggal_lahir; ?></td>
                                 </tr>
                                 <tr>
-                                    <td>Jenis Kelamin</td>
+                                    <td class="fw-bold">Jenis Kelamin</td>
                                     <td> <?= user()->jenis_kelamin; ?></td>
                                 </tr>
                                 <tr>
-                                    <td>Email</td>
+                                    <td class="fw-bold">Email</td>
                                     <td> <?= user()->email; ?></td>
                                 </tr>
                                 <tr>
-                                    <td>Telepon</td>
+                                    <td class="fw-bold">Telepon</td>
                                     <td> <?= user()->telepon; ?></td>
                                 </tr>
                                 <tr>
-                                    <td>Terdaftar Sejak</td>
+                                    <td class="fw-bold">Terdaftar Sejak</td>
                                     <td> <?= user()->created_at; ?></td>
                                 </tr>
                             </table>
@@ -47,6 +47,9 @@
                                 <div class="col-md-8 offset-md-2 ">
                                     <img src="<?= base_url() ?>\img\<?= user()->user_image; ?>" alt="" width="100%">
                                 </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col"><a href="<?= base_url('user/edit/' . user()->id) ?>" class="btn btn-warning btn-block">Edit</a></div>
                             </div>
                         </div>
 
