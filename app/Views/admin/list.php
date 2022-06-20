@@ -42,23 +42,6 @@
     </div>
 </div>
 <script>
-    $('#delet').submit(function(e) {
-        e.preventDefault();
-        $.ajax({
-            type: $(this).attr('method'),
-            url: $(this).attr('action'),
-            success: function(response) {
-                var respon = JSON.parse(response);
-                Swal.fire({
-                    title: 'Berhasil!',
-                    text: respon.sukses,
-                    icon: 'success',
-                    confirmButtonText: 'Ok'
-                });
-                window.location.href = 'admin/index'
-            }
-        });
-    })
     $(document).ready(function() {
         $('#datatable').DataTable();
     });

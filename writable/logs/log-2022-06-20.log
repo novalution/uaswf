@@ -129,3 +129,11 @@ CRITICAL - 2022-06-20 09:45:54 --> Unknown column 'id' in 'where clause'
 #8 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #9 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
 #10 {main}
+CRITICAL - 2022-06-20 10:39:36 --> Undefined property: App\Controllers\User::$labsBuilder
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Controllers\User.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Kuliah\\Smt 6...', 86)
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->labs()
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#6 {main}

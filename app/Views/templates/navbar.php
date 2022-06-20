@@ -22,12 +22,14 @@
                 <a href=" <?php echo base_url('/user/index'); ?>" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
                     <i class="fas fa-user-alt fa-fw me-3"></i><span>My Profile</span>
                 </a>
+                <?php if (!in_groups('admin')) : ?>
                 <a href=" <?php echo base_url('/user/reservation'); ?>" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
                     <i class="fas fa-file-invoice fa-fw me-3"></i><span>Reservation</span>
                 </a>
                 <a href=" <?php echo base_url('/user/labs'); ?>" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
                     <i class="fas fa-network-wired fa-fw me-3"></i><span>Labs</span>
                 </a>
+                <?php endif; ?>
                 <hr>
                 <a href=" <?php echo base_url('logout'); ?>" class="list-group-item list-group-item-action py-2 ">
                     <i class="fas fa-sign-out-alt fa-fw me-3"></i><span>Logout </span>

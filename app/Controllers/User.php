@@ -15,6 +15,7 @@ class User extends BaseController
         // $this->config = config('Auth');
         $this->db       = \Config\Database::connect();
         $this->builder = $this->db->table('users');
+        $this->labsBuilder = $this->db->table('labs');
     }
 
     public function index()
@@ -79,5 +80,28 @@ class User extends BaseController
             'user_image' => $namaavatar
         ]);
         return redirect()->to('/user');
+    }
+    public function labs()
+    {
+        $data['title'] = 'Lab List';
+            $query = $this->labsBuilder->get();
+            $data['labs'] = $query->getResult();
+
+            if (empty($data['labs'])) {
+                return redirect()->to('/');
+            }
+
+            return view('/user/labs', $data);
+    }
+    public function labDetail($id = 0){
+        $data['title'] = 'Lab Detail';
+            $query = $this->labsBuilder->getWhere(['lab_id' => $id]);
+            $data['lab'] = $query->getRow();
+
+            if (empty($data['lab'])) {
+                return redirect()->to('/user/labs');
+            }
+
+            return view('/user/labsdetail', $data);
     }
 }

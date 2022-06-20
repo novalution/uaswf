@@ -37,6 +37,8 @@ $routes->setAutoRoute(true);
 //user
 $routes->get('/', 'User::index');
 $routes->get('/user/index', 'User::index');
+$routes->get('/user/labs', 'User::labs');
+$routes->get('/user/labs/(:segment)', 'User::labDetail/$1');
 $routes->get('/user/edit/(:segment)', 'User::edit/$1');
 
 // Admin
