@@ -24,7 +24,7 @@
                             <td><?= $item->email ?></td>
                             <td><?= $item->name ?></td>
                             <td>
-                                <a href="<?= base_url('admin/' . $item->userid) ?>" class="btn btn-primary btn-block">Detail</a>
+                                <a href="<?= base_url('admin/users/' . $item->userid) ?>" class="btn btn-primary btn-block">Detail</a>
                                 <!-- <br>
                                 <form action="/admin/delete/<?= $item->userid; ?>" method="post" id="delet">
                                     <input type="hidden" name="_method" value="DELETE">

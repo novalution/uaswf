@@ -8,7 +8,7 @@
                     <h5 class="sidebar-heading">
                         Site Management
                     </h5>
-                    <a href="<?= base_url('/admin/index'); ?>" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
+                    <a href="<?= base_url('/admin/users'); ?>" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
                         <i class="fas fa-users fa-fw me-3"></i><span>User List</span>
                     </a>
                     <a href="<?= base_url('/admin/labs'); ?>" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">

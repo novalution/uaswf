@@ -17,9 +17,9 @@ class Admin extends BaseController
         $this->builder = $this->db->table('users');
         $this->labsBuilder = $this->db->table('labs');
     }
-    public function index()
+    public function users()
     {
-        return view('admin/index');
+        return view('admin/users');
     }
     public function getData()
     {
@@ -207,7 +207,7 @@ class Admin extends BaseController
             'password_hash' => $pass,
             'user_image' => $namaavatar
         ]);
-        return redirect()->to('/admin/'.$id);
+        return redirect()->to('/admin/users/'.$id);
     }
     // public function edit($id)
     // {

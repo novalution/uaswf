@@ -137,3 +137,13 @@ CRITICAL - 2022-06-20 10:39:36 --> Undefined property: App\Controllers\User::$la
 #4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
 #6 {main}
+CRITICAL - 2022-06-20 18:11:09 --> Invalid file: /admin/users/detail.php
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/admin/users/de...')
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/admin/users/de...', Array, true)
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Controllers\Admin.php(60): view('/admin/users/de...', Array)
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->detail('38')
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#8 {main}
