@@ -10,8 +10,8 @@
                             <div class="form-header">
                                 <h1>Make your reservation</h1>
                             </div>
-                            <form action="<?= base_url('user/pesan') ?>" method="post">
-                                <div class="form-group"> <input class="form-control" type="text" placeholder="Nama Lengkap" id="nama" name="nama"> </div>
+                            <form action="<?= base_url('user/pesan') ?>" method="post" id="book">
+                                <div class="form-group"> <input class="form-control" type="text" name="nama" id="nama" placeholder="Nama Lengkap"> <span class="form-label">Nama Lengkap</span> </div>
                                 <div class="row">
                                     <div class="form-group">
                                         <div class="form-group"> <input class="form-control" type="date" required min="<?= date('Y-m-d') ?>" max="<?= date('Y-m-d', strtotime('+2 week')) ?>" id="tanggal" name="tanggal"> <span class="form-label">Tanggal Reservasi</span> </div>
@@ -32,7 +32,7 @@
                                 <div class="row">
                                     <div class="">
                                         <div class="form-group"> <select class="form-control" required id="lab" name="lab">
-                                                <option selected hidden>Pilih Lab</option>
+                                                <option value="" selected hidden>Pilih Lab</option>
                                                 <option>Software Engineering</option>
                                                 <option>Multimedia Studio</option>
                                                 <option>Computer Work and Instrumentation</option>
@@ -45,12 +45,12 @@
                                         <div class="form-group"> <input class="form-control" type="email" name="email" id="email" placeholder="Enter your Email"> <span class="form-label">Email</span> </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="form-group"> <input class="form-control" type="telepon" name="telepon" id="telepon" placeholder="Enter you Phone"> <span class="form-label">Phone</span> </div>
+                                        <div class="form-group"> <input class="form-control" type="text" name="telepon" id="telepon" placeholder="Enter you Phone"> <span class="form-label">Phone</span> </div>
                                     </div>
                                     <?php if (in_groups('user_non_uns')) : ?>
                                         <div class="form-group"> <input class="form-control" type="text" value="50000" name="biaya" id="biaya" disabled> <span class="form-label">Biaya</span> </div>
                                     <?php else : ?>
-                                        <div class="form-group"> <input class="form-control" type="text" value="50000" name="biaya" id="biaya" disabled> <span class="form-label">Biaya</span> </div>
+                                        <div class="form-group"> <input class="form-control" type="text" value="0" name="biaya" id="biaya" disabled> <span class="form-label">Biaya</span> </div>
                                     <?php endif; ?>
                                     <div class="form-group">
                                         <p>Notes</p>
@@ -58,7 +58,7 @@
                                     </div>
                                 </div>
 
-                                <div class="form-btn"> <button class="submit-btn">Book Now</button> </div>
+                                <div class="form-btn"> <button class="submit-btn" id="book" name="book">Book Now</button> </div>
                             </form>
                         </div>
                     </div>
@@ -67,4 +67,34 @@
         </div>
     </main>
 </section>
+<script>
+    $('#book').submit(function(e) {
+        e.preventDefault();
+        $.ajax({
+            type: $(this).attr('method'),
+            url: $(this).attr('action'),
+            success: function(response) {
+                var respon = JSON.parse(response);
+                Swal.fire({
+                    title: 'Apakah kamu yakin ingin memesan lab ini?',
+                    text: "Pastikan datanya sudah benar!",
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    confirmButtonText: 'Iya, Saya yakin'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        Swal.fire(
+                            'Reservasi Berhasil!',
+                            'Pesananmu sudah berhasil,Silahkan bawa berkas yang diperlukan saat ingin check in!',
+                            'success',
+                            window.location.href = 'user/labs'
+                        )
+                    }
+                })
+            }
+        });
+    })
+</script>
 <?= $this->endSection('content'); ?>
