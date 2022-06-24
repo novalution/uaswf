@@ -5,17 +5,22 @@ namespace App\Controllers;
 use CodeIgniter\HTTP\Request;
 use Myth\Auth\Models\UserModel;
 use Myth\Auth\Password;
+use \App\Models\Reservasi;
 
 class User extends BaseController
 {
     protected $ModelUser;
+    protected $status;
     public function __construct()
     {
         $this->ModelUser = new UserModel();
+        $this->pesan = new Reservasi();
         // $this->config = config('Auth');
         $this->db       = \Config\Database::connect();
         $this->builder = $this->db->table('users');
         $this->labsBuilder = $this->db->table('labs');
+        $this->waktuBuilder = $this->db->table('waktu');
+        $this->reservasi = $this->db->table('reservasi');
     }
 
     public function index()
@@ -84,24 +89,79 @@ class User extends BaseController
     public function labs()
     {
         $data['title'] = 'Lab List';
-            $query = $this->labsBuilder->get();
-            $data['labs'] = $query->getResult();
+        $query = $this->labsBuilder->get();
+        $data['labs'] = $query->getResult();
 
-            if (empty($data['labs'])) {
-                return redirect()->to('/');
-            }
+        if (empty($data['labs'])) {
+            return redirect()->to('/');
+        }
 
-            return view('/user/labs', $data);
+        return view('/user/labs', $data);
     }
-    public function labDetail($id = 0){
+    public function labDetail($id = 0)
+    {
         $data['title'] = 'Lab Detail';
-            $query = $this->labsBuilder->getWhere(['lab_id' => $id]);
-            $data['lab'] = $query->getRow();
+        $query = $this->labsBuilder->getWhere(['lab_id' => $id]);
+        $data['lab'] = $query->getRow();
 
-            if (empty($data['lab'])) {
-                return redirect()->to('/user/labs');
-            }
+        if (empty($data['lab'])) {
+            return redirect()->to('/user/labs');
+        }
 
-            return view('/user/labsdetail', $data);
+        return view('/user/labsdetail', $data);
+    }
+    public function reservation()
+    {
+        $data['title'] = 'Jam Reservasi';
+        $query = $this->waktuBuilder->get();
+        $data['waktu'] = $query->getResult();
+
+        return view('user/reservasi', $data);
+    }
+    public function pesan()
+    {
+        $nama = $this->request->getVar('nama');
+        $lab = $this->request->getVar('lab');
+        $tanggal = $this->request->getVar('tanggal');
+        $jam = $this->request->getVar('jam');
+        $jam_explode = explode('|', $jam);
+        $notes = $this->request->getVar('notes');
+        $email = $this->request->getVar('email');
+        $telepon = $this->request->getVar('telepon');
+        // $biaya = $this->request->getVar('biaya');
+
+        $input = [
+            'nama' => $nama,
+            'nama_lab' => $lab,
+            'tanggal' => $tanggal,
+            'jam_mulai' => $jam_explode[0],
+            'jam_selesai' => $jam_explode[1],
+            'notes' => $notes,
+            'email' => $email,
+            'telepon' => $telepon,
+            // 'biaya' => $biaya
+        ];
+        // $db = db_connect();
+        // $query = $db->query('SELECT * FROM reservasi WHERE `nama_lab` = \'' . $this->request->getVar('lab') . '\' AND `jam_mulai` = \'' . $jam_explode[0] . '\' OR `jam_selesai` = \'' . $jam_explode[1]);
+        // $query = $db->query('SELECT * FROM reservasi_labkom WHERE `labkom` = \'' . $this->request->getVar('labkom-opt') . '\' AND `waktu_penggunaan` >= \'' . $waktu_pinjam . '\' OR `waktu_akhir_penggunaan` <= \'' . $waktu_selesai . '\' AND `status` = \'unfinished\'');
+
+        // $array = ['nama_lab' => $lab, 'jam_mulai' => $jam_explode[0], 'jam_selesai' => $jam_explode[1]];
+        $this->reservasi->select('*');
+        $this->reservasi->where('nama_lab', $lab);
+        $this->reservasi->where('tanggal', $tanggal);
+        $this->reservasi->orWhere('jam_mulai', $jam_explode[0]);
+        $this->reservasi->orWhere('jam_selesai', $jam_explode[1]);
+        $query = $this->reservasi->get();
+        if (count($query->getResult()) == 0) {
+            $this->pesan->save($input);
+            $pesan = [
+                'sukses' => 'Berhasil Reservasi'
+            ];
+        } else {
+            $pesan = [
+                'gagal' => 'Waktu anda bertabrakan dengan jadwal lain'
+            ];
+        }
+        return $this->response->setJSON($pesan);
     }
 }

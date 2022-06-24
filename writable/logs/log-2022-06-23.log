@@ -1,0 +1,521 @@
+ERROR - 2022-06-23 10:04:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''11:00 - 12:00' at line 1
+CRITICAL - 2022-06-23 10:04:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''11:00 - 12:00' at line 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(142): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+ERROR - 2022-06-23 10:04:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''11:00 - 12:00' at line 1
+CRITICAL - 2022-06-23 10:04:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''11:00 - 12:00' at line 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(142): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+ERROR - 2022-06-23 10:05:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''11:00 - 12:00' at line 1
+CRITICAL - 2022-06-23 10:05:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''11:00 - 12:00' at line 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(142): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+ERROR - 2022-06-23 10:05:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''09:00 - 10:00' at line 1
+CRITICAL - 2022-06-23 10:05:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''09:00 - 10:00' at line 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(142): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+ERROR - 2022-06-23 11:07:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10:00:00|11:00:00' at line 1
+CRITICAL - 2022-06-23 11:07:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10:00:00|11:00:00' at line 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(144): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+ERROR - 2022-06-23 11:10:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''11:00:00' at line 1
+CRITICAL - 2022-06-23 11:10:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''11:00:00' at line 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(144): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+ERROR - 2022-06-23 11:10:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''11:00:00' at line 1
+CRITICAL - 2022-06-23 11:10:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''11:00:00' at line 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(144): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+CRITICAL - 2022-06-23 11:11:50 --> Undefined variable: query
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ASUS\\D...', 145, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+ERROR - 2022-06-23 11:12:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''11:00:00' at line 1
+CRITICAL - 2022-06-23 11:12:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''11:00:00' at line 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(144): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+ERROR - 2022-06-23 11:15:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''11:00:00' at line 1
+CRITICAL - 2022-06-23 11:15:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''11:00:00' at line 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(144): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+ERROR - 2022-06-23 11:15:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''11:00:00' at line 1
+CRITICAL - 2022-06-23 11:15:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''11:00:00' at line 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(144): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+ERROR - 2022-06-23 11:18:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''11:00:00' at line 1
+CRITICAL - 2022-06-23 11:18:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''11:00:00' at line 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(144): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+ERROR - 2022-06-23 11:18:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10:00:00' at line 1
+CRITICAL - 2022-06-23 11:18:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10:00:00' at line 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(144): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+ERROR - 2022-06-23 11:18:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Multimedia Studio' at line 1
+CRITICAL - 2022-06-23 11:18:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Multimedia Studio' at line 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(144): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+ERROR - 2022-06-23 11:20:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''11:00:00' at line 1
+CRITICAL - 2022-06-23 11:20:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''11:00:00' at line 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(145): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+ERROR - 2022-06-23 11:21:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''11:00:00' at line 1
+CRITICAL - 2022-06-23 11:21:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''11:00:00' at line 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(145): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+ERROR - 2022-06-23 11:22:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''11:00:00' at line 1
+CRITICAL - 2022-06-23 11:22:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''11:00:00' at line 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(145): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+ERROR - 2022-06-23 11:25:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''13:00:00' at line 1
+CRITICAL - 2022-06-23 11:25:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''13:00:00' at line 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(145): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+ERROR - 2022-06-23 11:28:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Multimedia Studio' at line 1
+CRITICAL - 2022-06-23 11:28:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Multimedia Studio' at line 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(145): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+ERROR - 2022-06-23 11:28:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Multimedia Studio' at line 1
+CRITICAL - 2022-06-23 11:28:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Multimedia Studio' at line 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(145): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+ERROR - 2022-06-23 11:37:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''13:00:00' at line 1
+CRITICAL - 2022-06-23 11:37:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''13:00:00' at line 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(145): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...')
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+ERROR - 2022-06-23 12:00:28 --> Unknown column 'nama_lab' in 'where clause'
+CRITICAL - 2022-06-23 12:00:28 --> Unknown column 'nama_lab' in 'where clause'
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(148): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+ERROR - 2022-06-23 12:02:28 --> Table 'uaswf.reservasis' doesn't exist
+CRITICAL - 2022-06-23 12:02:28 --> Table 'uaswf.reservasis' doesn't exist
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(151): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#10 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+ERROR - 2022-06-23 12:02:45 --> Table 'uaswf.reservasis' doesn't exist
+CRITICAL - 2022-06-23 12:02:45 --> Table 'uaswf.reservasis' doesn't exist
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(151): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#10 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+ERROR - 2022-06-23 12:03:01 --> Table 'uaswf.haha' doesn't exist
+CRITICAL - 2022-06-23 12:03:01 --> Table 'uaswf.haha' doesn't exist
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(149): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+ERROR - 2022-06-23 12:03:07 --> Table 'uaswf.reservasis' doesn't exist
+CRITICAL - 2022-06-23 12:03:07 --> Table 'uaswf.reservasis' doesn't exist
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(151): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#10 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+ERROR - 2022-06-23 12:03:11 --> Table 'uaswf.reservas' doesn't exist
+CRITICAL - 2022-06-23 12:03:11 --> Table 'uaswf.reservas' doesn't exist
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(149): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+ERROR - 2022-06-23 12:03:17 --> Table 'uaswf.reservasis' doesn't exist
+CRITICAL - 2022-06-23 12:03:17 --> Table 'uaswf.reservasis' doesn't exist
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(151): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#10 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+ERROR - 2022-06-23 12:03:19 --> Table 'uaswf.reservasis' doesn't exist
+CRITICAL - 2022-06-23 12:03:19 --> Table 'uaswf.reservasis' doesn't exist
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(151): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#10 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+ERROR - 2022-06-23 12:03:41 --> Table 'uaswf.reservasis' doesn't exist
+CRITICAL - 2022-06-23 12:03:41 --> Table 'uaswf.reservasis' doesn't exist
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(152): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#10 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+ERROR - 2022-06-23 12:05:31 --> Unknown column 'nama_lab' in 'where clause'
+CRITICAL - 2022-06-23 12:05:31 --> Unknown column 'nama_lab' in 'where clause'
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(148): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+ERROR - 2022-06-23 12:06:19 --> Table 'uaswf.reservasis' doesn't exist
+CRITICAL - 2022-06-23 12:06:19 --> Table 'uaswf.reservasis' doesn't exist
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(151): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#10 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+ERROR - 2022-06-23 12:06:33 --> Table 'uaswf.reservasis' doesn't exist
+CRITICAL - 2022-06-23 12:06:33 --> Table 'uaswf.reservasis' doesn't exist
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(151): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#10 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+ERROR - 2022-06-23 12:11:06 --> Column 'biaya' cannot be null
+CRITICAL - 2022-06-23 12:11:06 --> Column 'biaya' cannot be null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(151): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#10 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+ERROR - 2022-06-23 12:11:40 --> Column 'biaya' cannot be null
+CRITICAL - 2022-06-23 12:11:40 --> Column 'biaya' cannot be null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(151): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#10 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+ERROR - 2022-06-23 12:11:59 --> Column 'biaya' cannot be null
+CRITICAL - 2022-06-23 12:11:59 --> Column 'biaya' cannot be null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(151): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#10 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+ERROR - 2022-06-23 12:12:00 --> Column 'biaya' cannot be null
+CRITICAL - 2022-06-23 12:12:00 --> Column 'biaya' cannot be null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(151): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#10 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+ERROR - 2022-06-23 12:12:06 --> Column 'biaya' cannot be null
+CRITICAL - 2022-06-23 12:12:06 --> Column 'biaya' cannot be null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(151): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#10 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}

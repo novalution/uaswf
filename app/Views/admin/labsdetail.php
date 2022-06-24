@@ -24,14 +24,15 @@
                                 <tr>
                                     <td class="fw-bold">Status</td>
                                     <td style="color:<?php if ($lab->status == "open") {
-                                                                echo "green";
-                                                            } else {
-                                                                echo "red";}?>
+                                                            echo "green";
+                                                        } else {
+                                                            echo "red";
+                                                        } ?>
                                                            "> <?= ucfirst($lab->status); ?></td>
                                 </tr>
                                 <tr>
                                     <td class="fw-bold">Description</td>
-                                    <td> <?= $lab->description?></td>
+                                    <td> <?= $lab->description ?></td>
                                 </tr>
                             </table>
                         </div>
@@ -44,7 +45,7 @@
                             <div class="row mt-4">
                                 <div class="col"><a href="<?= base_url('admin/labs/edit/' . $lab->lab_id) ?>" class="btn btn-warning btn-block">Edit</a></div>
                                 <div class="col">
-                                    <form action="/admin/labs/delete/<?= $lab->lab_id; ?>" method="post" id="delete">
+                                    <form action="<?= base_url() ?>/admin/labs/delete/<?= $lab->lab_id; ?>" method="delete" id="delete">
                                         <input type="hidden" name="_method" value="DELETE">
                                         <?= csrf_field(); ?>
                                         <button type="submit" class="btn btn-danger btn-block">Delete</button>
@@ -68,12 +69,23 @@
             success: function(response) {
                 var respon = JSON.parse(response);
                 Swal.fire({
-                    title: 'Berhasil!',
-                    text: respon.sukses,
-                    icon: 'success',
-                    confirmButtonText: 'Ok'
-                });
-                window.location.href = 'admin/labs'
+                    title: 'Are you sure?',
+                    text: "You won't be able to revert this!",
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    confirmButtonText: 'Yes, delete it!'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        Swal.fire(
+                            'Deleted!',
+                            'Your file has been deleted.',
+                            'success',
+                            window.location.href = 'admin/labs'
+                        )
+                    }
+                })
             }
         });
     })
