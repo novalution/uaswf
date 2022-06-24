@@ -67,4 +67,34 @@
         </div>
     </main>
 </section>
+<script>
+    $('#book').submit(function(e) {
+        e.preventDefault();
+        $.ajax({
+            type: $(this).attr('method'),
+            url: $(this).attr('action'),
+            success: function(response) {
+                var respon = JSON.parse(response);
+                Swal.fire({
+                    title: 'Apakah kamu yakin ingin memesan lab ini?',
+                    text: "Pastikan datanya sudah benar!",
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    confirmButtonText: 'Iya, Saya yakin'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        Swal.fire(
+                            'Reservasi Berhasil!',
+                            'Pesananmu sudah berhasil,Silahkan bawa berkas yang diperlukan saat ingin check in!',
+                            'success',
+                            window.location.href = 'user/labs'
+                        )
+                    }
+                })
+            }
+        });
+    })
+</script>
 <?= $this->endSection('content'); ?>
