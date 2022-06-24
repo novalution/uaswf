@@ -4,15 +4,18 @@ namespace App\Controllers;
 
 use Myth\Auth\Models\UserModel;
 use Myth\Auth\Password;
+use \App\Models\Reservasi;
 
 class Admin extends BaseController
 {
 
     protected $ModelUser;
+    protected $status;
     public function __construct()
     {
         $this->ModelUser = new UserModel();
         // $this->config = config('Auth');
+        $this->status = new Reservasi();
         $this->db       = \Config\Database::connect();
         $this->builder = $this->db->table('users');
         $this->labsBuilder = $this->db->table('labs');
@@ -62,36 +65,38 @@ class Admin extends BaseController
     public function labs()
     {
         $data['title'] = 'Lab List';
-            $query = $this->labsBuilder->get();
-            $data['labs'] = $query->getResult();
+        $query = $this->labsBuilder->get();
+        $data['labs'] = $query->getResult();
 
-            if (empty($data['labs'])) {
-                return redirect()->to('/admin');
-            }
+        if (empty($data['labs'])) {
+            return redirect()->to('/admin');
+        }
 
-            return view('/admin/labs', $data);
+        return view('/admin/labs', $data);
     }
-    public function labDetail($id = 0){
+    public function labDetail($id = 0)
+    {
         $data['title'] = 'Lab Detail';
-            $query = $this->labsBuilder->getWhere(['lab_id' => $id]);
-            $data['lab'] = $query->getRow();
+        $query = $this->labsBuilder->getWhere(['lab_id' => $id]);
+        $data['lab'] = $query->getRow();
 
-            if (empty($data['lab'])) {
-                return redirect()->to('/admin/labs');
-            }
+        if (empty($data['lab'])) {
+            return redirect()->to('/admin/labs');
+        }
 
-            return view('/admin/labsdetail', $data);
+        return view('/admin/labsdetail', $data);
     }
-    public function labEdit($id = 0){
+    public function labEdit($id = 0)
+    {
         $data['title'] = 'Edit Lab Details';
-            $query = $this->labsBuilder->getWhere(['lab_id' => $id]);
-            $data['lab'] = $query->getRow();
+        $query = $this->labsBuilder->getWhere(['lab_id' => $id]);
+        $data['lab'] = $query->getRow();
 
-            if (empty($data['lab'])) {
-                return redirect()->to('/admin/labs/'.$id);
-            }
+        if (empty($data['lab'])) {
+            return redirect()->to('/admin/labs/' . $id);
+        }
 
-            return view('/admin/labsedit', $data);
+        return view('/admin/labsedit', $data);
     }
     public function labDelete($id)
     {
@@ -123,7 +128,7 @@ class Admin extends BaseController
         ];
         $this->labsBuilder->where('lab_id', $id);
         $this->labsBuilder->update($data);
-        return redirect()->to('/admin/labs/'.$id);
+        return redirect()->to('/admin/labs/' . $id);
     }
     public function addLab()
     {
@@ -207,14 +212,35 @@ class Admin extends BaseController
             'password_hash' => $pass,
             'user_image' => $namaavatar
         ]);
-        return redirect()->to('/admin/users/'.$id);
+        return redirect()->to('/admin/users/' . $id);
     }
-    // public function edit($id)
-    // {
-    //     $data = [
-    //         'title' => "Form Edit Data",
-    //         'validation' => \Config\Services::validation(),
-    //         'users' => $this->ModelUser->
-    //     ]
-    // }
+    public function acc()
+    {
+        $data['title'] = 'Reserver List';
+        $query = $this->status->get();
+        $data['status'] = $query->getResult();
+
+        return view('/admin/acc', $data);
+    }
+    public function accept($id)
+    {
+        $status = 'verif';
+        $this->status->save([
+            'id_reservasi' => $id,
+            'status' => $status
+        ]);
+        return redirect()->to('/admin/acc/');
+    }
+    public function reject($id)
+    {
+        if ($this->request->isAjax()) {
+            $this->status->delete(['id_reservasi' => $id]);
+            $pesan = [
+                'sukses' => "Reservasi telah di reject"
+            ];
+            echo json_encode($pesan);
+        } else {
+            exit('Gagal');
+        }
+    }
 }

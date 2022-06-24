@@ -67,3 +67,141 @@ CRITICAL - 2022-06-24 02:55:01 --> Column 'biaya' cannot be null
 #12 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #13 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
 #14 {main}
+CRITICAL - 2022-06-24 08:08:40 --> syntax error, unexpected '<<' (T_SL), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ASUS\\D...')
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Rese...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Rese...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\app\Controllers\User.php(17): spl_autoload_call('App\\Models\\Rese...')
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(809): App\Controllers\User->__construct()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+CRITICAL - 2022-06-24 08:09:09 --> Undefined offset: 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\app\Controllers\User.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\ASUS\\D...', 142, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-24 08:09:11 --> Undefined offset: 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\app\Controllers\User.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\ASUS\\D...', 142, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-24 08:09:33 --> Undefined offset: 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\app\Controllers\User.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\ASUS\\D...', 142, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-24 08:13:32 --> Undefined offset: 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\app\Controllers\User.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\ASUS\\D...', 132, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-24 08:13:34 --> Undefined offset: 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\app\Controllers\User.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\ASUS\\D...', 132, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-24 08:17:09 --> Undefined offset: 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\app\Controllers\User.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\ASUS\\D...', 132, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-24 08:36:54 --> Undefined variable: list
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\app\Views\admin\acc.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ASUS\\D...', 29, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/admin/acc', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\app\Controllers\Admin.php(223): view('/admin/acc', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->acc()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-24 08:39:18 --> Undefined property: stdClass::$userid
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\app\Views\admin\acc.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\ASUS\\D...', 38, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/admin/acc', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\app\Controllers\Admin.php(223): view('/admin/acc', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->acc()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-24 08:47:31 --> There is no data to insert.
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\app\Controllers\Admin.php(229): CodeIgniter\BaseModel->save(Array)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->accept('22')
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+CRITICAL - 2022-06-24 08:48:40 --> There is no data to insert.
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\app\Controllers\Admin.php(229): CodeIgniter\BaseModel->save(Array)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->accept('22')
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+CRITICAL - 2022-06-24 08:48:44 --> There is no data to insert.
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\app\Controllers\Admin.php(229): CodeIgniter\BaseModel->save(Array)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->accept('22')
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+CRITICAL - 2022-06-24 08:51:42 --> There is no data to insert.
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\app\Controllers\Admin.php(229): CodeIgniter\BaseModel->save(Array)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->accept('22')
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+CRITICAL - 2022-06-24 08:53:02 --> There is no data to insert.
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\app\Controllers\Admin.php(229): CodeIgniter\BaseModel->save(Array)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->accept('22')
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
