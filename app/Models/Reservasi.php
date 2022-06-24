@@ -14,7 +14,7 @@ class Reservasi extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['username', 'nama_lab', 'tanggal', 'jam_mulai', 'jam_selesai', 'notes', 'email', 'biaya'];
+    protected $allowedFields    = ['nama', 'telepon', 'nama_lab', 'tanggal', 'jam_mulai', 'jam_selesai', 'notes', 'email', 'biaya'];
 
     // Dates
     protected $useTimestamps = false;
