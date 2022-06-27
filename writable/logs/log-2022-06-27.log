@@ -367,3 +367,15 @@ CRITICAL - 2022-06-27 11:15:03 --> Undefined variable: item
 #8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
 #10 {main}
+CRITICAL - 2022-06-27 11:43:24 --> Undefined property: stdClass::$kode
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Views\admin\acc.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/admin/acc', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\Admin.php(223): view('/admin/acc', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->acc()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}

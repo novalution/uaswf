@@ -28,17 +28,7 @@ class User extends BaseController
         $data['title'] = "My Profile";
         return view('user/index', $data);
     }
-    public function getForm()
-    {
-        if ($this->request->isAJAX()) {
-            $hasil = [
-                'data' => view('user/form')
-            ];
-            return $this->response->setJSON($hasil);
-        } else {
-            exit('data tidak dapat diload');
-        }
-    }
+
     public function edit($id)
     {
         $data['title'] = 'User Detail';

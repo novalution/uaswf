@@ -30,12 +30,13 @@ class Database extends Config
      *
      * @var array
      */
+
     public $default = [
         'DSN'      => '',
-        'hostname' => 'localhost',
-        'username' => '',
-        'password' => '',
-        'database' => '',
+        'hostname' => 'mnazmiw.my.id',
+        'username' => 'mnazmiwm_uaswf',
+        'password' => 'ptik2019',
+        'database' => 'mnazmiwm_uaswf',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
@@ -58,10 +59,10 @@ class Database extends Config
      */
     public $tests = [
         'DSN'      => '',
-        'hostname' => '127.0.0.1',
-        'username' => '',
-        'password' => '',
-        'database' => ':memory:',
+        'hostname' => 'mnazmiw.my.id',
+        'username' => 'mnazmiwm_uaswf',
+        'password' => 'ptik2019',
+        'database' => 'mnazmiwm_uaswf',
         'DBDriver' => 'SQLite3',
         'DBPrefix' => 'db_',  // Needed to ensure we're working correctly with prefixes live. DO NOT REMOVE FOR CI DEVS
         'pConnect' => false,

@@ -14,7 +14,7 @@
                         <?= csrf_field() ?>
                         <div class="form-group">
                             <label for="fullname">Nama Lengkap</label>
-                            <input type="text" class="form-control" name="fullname" placeholder="Nama Belakang" value="<?= old('fullname') ?>">
+                            <input type="text" class="form-control" name="fullname" placeholder="Nama Lengkap" value="<?= old('fullname') ?>">
                         </div>
                         <div class="form-group">
                             <label for="alamat">Alamat</label>

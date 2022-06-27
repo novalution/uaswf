@@ -25,12 +25,6 @@
                             <td><?= $item->name ?></td>
                             <td>
                                 <a href="<?= base_url('admin/users/' . $item->userid) ?>" class="btn btn-primary btn-block">Detail</a>
-                                <!-- <br>
-                                <form action="/admin/delete/<?= $item->userid; ?>" method="post" id="delet">
-                                    <input type="hidden" name="_method" value="DELETE">
-                                    <?= csrf_field(); ?>
-                                    <button type="submit" class="btn btn-danger btn-block">Delete</button>
-                                </form> -->
                             </td>
                         </tr>
                 <?php } else {;
