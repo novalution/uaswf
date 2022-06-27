@@ -4,18 +4,18 @@ namespace App\Controllers;
 
 use Myth\Auth\Models\UserModel;
 use Myth\Auth\Password;
-use \App\Models\Reservasi;
+use App\Models\Reservasi;
 
 class Admin extends BaseController
 {
 
     protected $ModelUser;
-    protected $status;
+    protected $reservasi;
     public function __construct()
     {
         $this->ModelUser = new UserModel();
         // $this->config = config('Auth');
-        $this->status = new Reservasi();
+        $this->reservasi = new Reservasi();
         $this->db       = \Config\Database::connect();
         $this->builder = $this->db->table('users');
         $this->labsBuilder = $this->db->table('labs');
@@ -217,7 +217,7 @@ class Admin extends BaseController
     public function acc()
     {
         $data['title'] = 'Reserver List';
-        $query = $this->status->get();
+        $query = $this->reservasi->get();
         $data['status'] = $query->getResult();
 
         return view('/admin/acc', $data);
@@ -225,7 +225,7 @@ class Admin extends BaseController
     public function accept($id)
     {
         $status = 'verif';
-        $this->status->save([
+        $this->reservasi->save([
             'id_reservasi' => $id,
             'status' => $status
         ]);
@@ -234,7 +234,7 @@ class Admin extends BaseController
     public function reject($id)
     {
         if ($this->request->isAjax()) {
-            $this->status->delete(['id_reservasi' => $id]);
+            $this->reservasi->delete(['id_reservasi' => $id]);
             $pesan = [
                 'sukses' => "Reservasi telah di reject"
             ];

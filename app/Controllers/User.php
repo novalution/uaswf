@@ -118,12 +118,8 @@ class User extends BaseController
         $notes = $this->request->getVar('notes');
         $email = $this->request->getVar('email');
         $telepon = $this->request->getVar('telepon');
-        $biaya = $this->request->getVar('biaya');
-        if (in_groups('user_non_uns')) {
-            $biaya = 'Rp 50000';
-        } else {
-            $biaya = 'Rp 0';
-        }
+        // $biaya = $this->request->getVar('biaya');
+
         $input = [
             'nama' => $nama,
             'nama_lab' => $lab,
@@ -133,15 +129,19 @@ class User extends BaseController
             'notes' => $notes,
             'email' => $email,
             'telepon' => $telepon,
-            'biaya' => $biaya
+            // 'biaya' => $biaya
         ];
+        // $db = db_connect();
+        // $query = $db->query('SELECT * FROM reservasi WHERE `nama_lab` = \'' . $this->request->getVar('lab') . '\' AND `jam_mulai` = \'' . $jam_explode[0] . '\' OR `jam_selesai` = \'' . $jam_explode[1]);
+        // $query = $db->query('SELECT * FROM reservasi_labkom WHERE `labkom` = \'' . $this->request->getVar('labkom-opt') . '\' AND `waktu_penggunaan` >= \'' . $waktu_pinjam . '\' OR `waktu_akhir_penggunaan` <= \'' . $waktu_selesai . '\' AND `status` = \'unfinished\'');
+
+        // $array = ['nama_lab' => $lab, 'jam_mulai' => $jam_explode[0], 'jam_selesai' => $jam_explode[1]];
         $this->reservasi->select('*');
         $this->reservasi->where('nama_lab', $lab);
         $this->reservasi->where('tanggal', $tanggal);
-        $this->reservasi->where('jam_mulai', $jam_explode[0]);
-        $this->reservasi->where('jam_selesai', $jam_explode[1]);
+        $this->reservasi->orWhere('jam_mulai', $jam_explode[0]);
+        $this->reservasi->orWhere('jam_selesai', $jam_explode[1]);
         $query = $this->reservasi->get();
-        // dd($input);
         if (count($query->getResult()) == 0) {
             $this->pesan->save($input);
             $pesan = [
