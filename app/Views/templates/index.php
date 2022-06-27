@@ -50,6 +50,20 @@
     $(document).ready(function() {
         tampilData();
     });
+
+    function tamplikan() {
+        $.ajax({
+            url: "<?= base_url('/user/data') ?>",
+            dataType: "json",
+            success: function(response) {
+                $('#historydata').html(response.data);
+            }
+        });
+    }
+
+    $(document).ready(function() {
+        tamplikan();
+    });
 </script>
 <!-- <script type="text/javascript" src="<?= base_url('/node_modules/sweetalert2/dist/sweetalert2.min.js'); ?>"></script> -->
 

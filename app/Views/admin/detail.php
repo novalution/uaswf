@@ -55,16 +55,16 @@
                             </div>
                             <div class="row mt-4">
                                 <div class="col"><a href="<?= base_url('admin/users/edit/' . $user->userid) ?>" class="btn btn-warning btn-block">Edit</a></div>
-                                <?php if (user()->username != $user->username) {?>
-                                <div class="col">
-                                    
-                                    <form action="/admin/users/delete/<?= $user->userid; ?>" method="post" id="delet">
-                                        <input type="hidden" name="_method" value="DELETE">
-                                        <?= csrf_field(); ?>
-                                        <button type="submit" class="btn btn-danger btn-block">Delete</button>
-                                    </form>
-                                </div>
-                                <?php }?>
+                                <?php if (user()->username != $user->username) { ?>
+                                    <div class="col">
+
+                                        <form action="<?= base_url() ?>/admin/users/delete/<?= $user->userid; ?>" method="delete" id="delet">
+                                            <input type="hidden" name="_method" value="DELETE">
+                                            <?= csrf_field(); ?>
+                                            <button type="submit" class="btn btn-danger btn-block">Delete</button>
+                                        </form>
+                                    </div>
+                                <?php } ?>
                             </div>
                         </div>
 
@@ -84,12 +84,23 @@
             success: function(response) {
                 var respon = JSON.parse(response);
                 Swal.fire({
-                    title: 'Berhasil!',
-                    text: respon.sukses,
-                    icon: 'success',
-                    confirmButtonText: 'Ok'
-                });
-                window.location.href = 'admin/index'
+                    title: 'Are you sure?',
+                    text: "You won't be able to revert this!",
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    confirmButtonText: 'Yes, delete it!'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        Swal.fire(
+                            'Deleted!',
+                            'Your file has been deleted.',
+                            'success',
+                            window.location.href = 'admin/users'
+                        )
+                    }
+                })
             }
         });
     })

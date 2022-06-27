@@ -1,0 +1,97 @@
+ERROR - 2022-06-24 01:26:15 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-06-24 01:26:15 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '61')
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('61')
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\vendor\myth\auth\src\Filters\LoginFilter.php(44): Myth\Auth\Authentication\LocalAuthenticator->check()
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('user/reservatio...', 'before')
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#12 {main}
+ERROR - 2022-06-24 02:54:20 --> Column 'biaya' cannot be null
+CRITICAL - 2022-06-24 02:54:20 --> Column 'biaya' cannot be null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(151): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#10 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+ERROR - 2022-06-24 02:54:57 --> Column 'biaya' cannot be null
+CRITICAL - 2022-06-24 02:54:57 --> Column 'biaya' cannot be null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(151): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#10 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+ERROR - 2022-06-24 02:55:01 --> Column 'biaya' cannot be null
+CRITICAL - 2022-06-24 02:55:01 --> Column 'biaya' cannot be null
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(151): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#10 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#14 {main}
+CRITICAL - 2022-06-24 08:18:16 --> Undefined offset: 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\ASUS\\D...', 142, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-24 08:18:20 --> Undefined offset: 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\ASUS\\D...', 142, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-24 08:19:38 --> Undefined variable: labs
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Views\user\labs.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ASUS\\D...', 29, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('user/labs', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(165): view('user/labs')
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}

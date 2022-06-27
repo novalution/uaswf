@@ -1,0 +1,369 @@
+ERROR - 2022-06-27 02:32:44 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-06-27 02:32:44 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\vendor\myth\auth\src\Models\LoginModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(93): Myth\Auth\Models\LoginModel->getRememberToken('bafcf1d641cc51a...')
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\vendor\myth\auth\src\Filters\LoginFilter.php(44): Myth\Auth\Authentication\LocalAuthenticator->check()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/', 'before')
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-27 02:46:50 --> Undefined property: App\Controllers\Admin::$reservasi
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\Admin.php(217): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\ASUS\\D...', 217, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->acc()
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-27 02:52:56 --> Undefined offset: 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\ASUS\\D...', 142, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-27 02:52:57 --> Undefined offset: 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\ASUS\\D...', 142, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-27 02:54:35 --> Undefined offset: 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\ASUS\\D...', 142, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-27 02:54:36 --> Undefined offset: 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\ASUS\\D...', 142, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-27 02:54:36 --> Undefined offset: 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\ASUS\\D...', 142, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-27 02:54:36 --> Undefined offset: 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\ASUS\\D...', 142, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-27 02:54:47 --> Undefined offset: 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\ASUS\\D...', 142, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-27 03:02:15 --> Undefined offset: 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\ASUS\\D...', 142, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-27 03:10:21 --> Undefined offset: 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\ASUS\\D...', 142, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-27 03:10:22 --> Undefined offset: 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\ASUS\\D...', 142, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-27 03:14:11 --> Undefined offset: 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\ASUS\\D...', 142, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-27 03:17:04 --> Undefined offset: 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\ASUS\\D...', 142, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-27 03:17:05 --> Undefined offset: 1
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\ASUS\\D...', 142, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->pesan()
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2022-06-27 04:10:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->getdata()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-27 04:10:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->getdata()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-27 04:10:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->getdata()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-27 04:13:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->getData()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-27 04:13:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->getData()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-27 04:13:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->getData()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-27 10:26:48 --> Undefined property: stdClass::$nama
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Views\user\list.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\ASUS\\D...', 22, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/user/list', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(185): view('/user/list', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->getData()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-27 10:26:50 --> Undefined property: stdClass::$nama
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Views\user\list.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\ASUS\\D...', 22, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/user/list', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(185): view('/user/list', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->getData()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-27 10:27:05 --> Undefined property: stdClass::$nama
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Views\user\list.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\ASUS\\D...', 22, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/user/list', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(185): view('/user/list', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->getData()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-27 10:27:47 --> Undefined property: stdClass::$nama
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Views\user\list.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\ASUS\\D...', 22, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/user/list', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(185): view('/user/list', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->getData()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-27 10:27:48 --> Undefined property: stdClass::$nama
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Views\user\list.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\ASUS\\D...', 22, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/user/list', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(185): view('/user/list', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->getData()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-27 10:27:50 --> Undefined property: stdClass::$nama
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Views\user\list.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\ASUS\\D...', 22, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/user/list', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(185): view('/user/list', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->getData()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-27 10:28:24 --> Undefined property: stdClass::$nama
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Views\user\list.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\ASUS\\D...', 22, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('user/list', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(185): view('user/list', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->getData()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-27 10:29:51 --> Undefined property: stdClass::$nama
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Views\user\list.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\ASUS\\D...', 22, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/user/list', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(185): view('/user/list', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->getData()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-27 10:30:24 --> Undefined property: stdClass::$nama
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Views\user\list.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\ASUS\\D...', 22, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/user/list', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(185): view('/user/list', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->getData()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-27 10:30:54 --> Undefined property: stdClass::$nama_lab
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Views\user\list.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\ASUS\\D...', 23, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/user/list', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(185): view('/user/list', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->getData()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-27 10:42:07 --> Too few arguments to function App\Controllers\User::getData(), 0 passed in C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->getData()
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2022-06-27 11:13:32 --> Undefined variable: item
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Views\user\list.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ASUS\\D...', 30, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/user/list', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(216): view('/user/list', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->getData()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-27 11:13:34 --> Undefined variable: item
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Views\user\list.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ASUS\\D...', 30, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/user/list', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(216): view('/user/list', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->getData()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-27 11:14:38 --> Undefined variable: item
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Views\user\list.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ASUS\\D...', 30, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/user/list', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(216): view('/user/list', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->getData()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-27 11:14:45 --> Undefined variable: item
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Views\user\list.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ASUS\\D...', 30, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/user/list', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(216): view('/user/list', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->getData()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-27 11:14:47 --> Undefined variable: item
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Views\user\list.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ASUS\\D...', 30, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/user/list', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(216): view('/user/list', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->getData()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-27 11:15:03 --> Undefined variable: item
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Views\user\list.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ASUS\\D...', 30, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/user/list', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(216): view('/user/list', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->getData()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}

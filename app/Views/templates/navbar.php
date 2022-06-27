@@ -14,6 +14,9 @@
                     <a href="<?= base_url('/admin/labs'); ?>" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
                         <i class="fas fa-network-wired fa-fw me-3"></i><span>Lab List</span>
                     </a>
+                    <a href="<?= base_url('/admin/acc'); ?>" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
+                        <i class="fas fa-network-wired fa-fw me-3"></i><span>Reserver List</span>
+                    </a>
                     <hr>
                 <?php endif; ?>
                 <h5 class="sidebar-heading">
@@ -23,12 +26,15 @@
                     <i class="fas fa-user-alt fa-fw me-3"></i><span>My Profile</span>
                 </a>
                 <?php if (!in_groups('admin')) : ?>
-                <a href=" <?php echo base_url('/user/reservation'); ?>" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
-                    <i class="fas fa-file-invoice fa-fw me-3"></i><span>Reservation</span>
-                </a>
-                <a href=" <?php echo base_url('/user/labs'); ?>" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
-                    <i class="fas fa-network-wired fa-fw me-3"></i><span>Labs</span>
-                </a>
+                    <a href=" <?php echo base_url('/user/reservation'); ?>" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
+                        <i class="fas fa-file-invoice fa-fw me-3"></i><span>Reservation</span>
+                    </a>
+                    <a href=" <?php echo base_url('/user/labs'); ?>" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
+                        <i class="fas fa-network-wired fa-fw me-3"></i><span>Labs</span>
+                    </a>
+                    <a href=" <?php echo base_url('/user/history'); ?>" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
+                        <i class="fas fa-network-wired fa-fw me-3"></i><span>Reservation History</span>
+                    </a>
                 <?php endif; ?>
                 <hr>
                 <a href=" <?php echo base_url('logout'); ?>" class="list-group-item list-group-item-action py-2 ">

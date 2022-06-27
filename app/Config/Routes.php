@@ -35,23 +35,27 @@ $routes->setAutoRoute(true);
 
 
 //user
-$routes->get('/', 'User::index', ['filter' => 'role:user,admin']);
-$routes->get('/user/index', 'User::index', ['filter' => 'role:user,admin']);
-$routes->get('/user/labs', 'User::labs', ['filter' => 'role:user']);
-$routes->get('/user/labs/(:segment)', 'User::labDetail/$1', ['filter' => 'role:user']);
-$routes->get('/user/edit/(:segment)', 'User::edit/$1', ['filter' => 'role:user,admin']);
+$routes->get('/', 'User::index');
+$routes->get('/user/index', 'User::index');
+$routes->get('/user/labs', 'User::labs', ['filter' => 'role:user_uns,user_non_uns']);
+$routes->get('/user/labs/(:segment)', 'User::labDetail/$1', ['filter' => 'role:user_uns,user_non_uns']);
+$routes->get('/user/edit/(:segment)', 'User::edit/$1');
+$routes->get('/user/pesan', 'User::pesan', ['filter' => 'role:user_uns,user_non_uns']);
+$routes->get('/user/data', 'User::getData', ['filter' => 'role:user_uns,user_non_uns']);
 
 // Admin
-$routes->get('/admin', 'Admin::dashboard', ['filter' => 'role:admin']);
+$routes->get('/admin', 'Admin::users', ['filter' => 'role:admin']);
 $routes->get('/admin/users', 'Admin::users', ['filter' => 'role:admin']);
 $routes->get('/admin/data', 'Admin::getData', ['filter' => 'role:admin']);
 $routes->delete('/admin/users/delete/(:segment)', 'Admin::delete/$1', ['filter' => 'role:admin']);
+$routes->get('/admin/users/edit/(:segment)', 'Admin::edit/$1', ['filter' => 'role:admin']);
 $routes->get('/admin/labs', 'Admin::labs', ['filter' => 'role:admin']);
 $routes->get('/admin/labs/add', 'Admin::addLab', ['filter' => 'role:admin']);
 $routes->delete('/admin/labs/delete/(:segment)', 'Admin::labDelete/$1', ['filter' => 'role:admin']);
 $routes->get('/admin/labs/edit/(:segment)', 'Admin::labEdit/$1', ['filter' => 'role:admin']);
 $routes->get('/admin/labs/(:segment)', 'Admin::labDetail/$1', ['filter' => 'role:admin']);
-$routes->get('/admin/users/edit/(:segment)', 'Admin::edit/$1', ['filter' => 'role:admin']);
+$routes->get('/admin/acc/accept/(:segment)', 'Admin::accept/$1', ['filter' => 'role:admin']);
+$routes->get('/admin/acc/reject/(:segment)', 'Admin::reject/$1', ['filter' => 'role:admin']);
 $routes->get('/admin/users/(:any)', 'Admin::detail/$1', ['filter' => 'role:admin']);
 
 /*

@@ -5,17 +5,22 @@ namespace App\Controllers;
 use CodeIgniter\HTTP\Request;
 use Myth\Auth\Models\UserModel;
 use Myth\Auth\Password;
+use \App\Models\Reservasi;
 
 class User extends BaseController
 {
     protected $ModelUser;
+    protected $status;
     public function __construct()
     {
         $this->ModelUser = new UserModel();
+        $this->pesan = new Reservasi();
         // $this->config = config('Auth');
         $this->db       = \Config\Database::connect();
         $this->builder = $this->db->table('users');
         $this->labsBuilder = $this->db->table('labs');
+        $this->waktuBuilder = $this->db->table('waktu');
+        $this->reservasi = $this->db->table('reservasi');
     }
 
     public function index()
@@ -84,24 +89,136 @@ class User extends BaseController
     public function labs()
     {
         $data['title'] = 'Lab List';
-            $query = $this->labsBuilder->get();
-            $data['labs'] = $query->getResult();
+        $query = $this->labsBuilder->get();
+        $data['labs'] = $query->getResult();
 
-            if (empty($data['labs'])) {
-                return redirect()->to('/');
-            }
+        if (empty($data['labs'])) {
+            return redirect()->to('/');
+        }
 
-            return view('/user/labs', $data);
+        return view('/user/labs', $data);
     }
-    public function labDetail($id = 0){
+    public function labDetail($id = 0)
+    {
         $data['title'] = 'Lab Detail';
-            $query = $this->labsBuilder->getWhere(['lab_id' => $id]);
-            $data['lab'] = $query->getRow();
+        $query = $this->labsBuilder->getWhere(['lab_id' => $id]);
+        $data['lab'] = $query->getRow();
 
-            if (empty($data['lab'])) {
-                return redirect()->to('/user/labs');
+        if (empty($data['lab'])) {
+            return redirect()->to('/user/labs');
+        }
+
+        return view('/user/labsdetail', $data);
+    }
+    public function reservation()
+    {
+        $data['title'] = 'Jam Reservasi';
+        $query = $this->waktuBuilder->get();
+        $data['waktu'] = $query->getResult();
+
+        return view('user/reservasi', $data);
+    }
+    public function pesan()
+    {
+
+        // Tentukan panjang / length - nya
+        $panjang = 5;
+
+        // fungsi kode acak
+        function kode_acak()
+        {
+            // Tentukan tipe nya
+            $tipe = '0123456789';
+            $kode_acak = '';
+
+            for ($i = 0; $i < 4; $i++) {
+                $random = rand(0, strlen($tipe) - 1);
+                $kode_acak .= $tipe[$random];
+                $kode_booking = 'LAB' . $kode_acak;
             }
 
-            return view('/user/labsdetail', $data);
+            return $kode_booking;
+        }
+
+        $id = $this->request->getVar('id_user');
+        $nama = $this->request->getVar('nama');
+        $lab = $this->request->getVar('lab');
+        $tanggal = $this->request->getVar('tanggal');
+        $jam = $this->request->getVar('jam');
+        $jam_explode = explode('|', $jam);
+        $notes = $this->request->getVar('notes');
+        $email = $this->request->getVar('email');
+        $telepon = $this->request->getVar('telepon');
+        $biaya = $this->request->getVar('biaya');
+        $kode = kode_acak();
+        if (in_groups('user_non_uns')) {
+            $biaya = 'Rp 50000';
+        } else {
+            $biaya = 'Rp 0';
+        }
+        $input = [
+            'id_user' => $id,
+            'kode' => $kode,
+            'nama' => $nama,
+            'nama_lab' => $lab,
+            'tanggal' => $tanggal,
+            'jam_mulai' => $jam_explode[0],
+            'jam_selesai' => $jam_explode[1],
+            'notes' => $notes,
+            'email' => $email,
+            'telepon' => $telepon,
+            'biaya' => $biaya,
+            'status' => 'unverif'
+        ];
+        $this->reservasi->select('*');
+        $this->reservasi->where('id_user', $id);
+        $query = $this->reservasi->get();
+        if (count($query->getResult()) > 4) {
+            echo ('gagal');
+        } else {
+            $this->reservasi->select('*');
+            $this->reservasi->where('nama_lab', $lab);
+            $this->reservasi->where('tanggal', $tanggal);
+            $this->reservasi->where('jam_mulai', $jam_explode[0]);
+            $this->reservasi->where('jam_selesai', $jam_explode[1]);
+            $query = $this->reservasi->get();
+            if (count($query->getResult()) == 0) {
+                $this->pesan->save($input);
+                $pesan = [
+                    'sukses' => 'Berhasil Reservasi'
+                ];
+            } else {
+                $pesan = [
+                    'gagal' => 'Waktu anda bertabrakan dengan jadwal lain'
+                ];
+            }
+        }
+        // echo json_decode()
+        return view('/user/history');
+    }
+    public function history()
+    {
+        return view('user/history');
+    }
+    public function getData($id = 0)
+    {
+        $data['title'] = 'User List';
+        if ($this->request->isAJAX()) {
+            // $data = [
+            //     'list' => $this->ModelUser->find()
+            // ];
+            $this->reservasi->select('*');
+            $this->reservasi->where('id_user !=', $id);
+            $query = $this->reservasi->get();
+            $data['list'] = $query->getResult();
+
+            $hasil = [
+                'data' => view('/user/list', $data)
+            ];
+            // echo json_encode($hasil);
+            return $this->response->setJSON($hasil);
+        } else {
+            exit('data tidak dapat diload');
+        }
     }
 }
