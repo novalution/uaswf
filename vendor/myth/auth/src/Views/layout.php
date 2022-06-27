@@ -22,8 +22,6 @@
 
 <body>
 
-<?= view('Myth\Auth\Views\_navbar') ?>
-
 <main role="main" class="container">
 	<?= $this->renderSection('main') ?>
 </main><!-- /.container -->
