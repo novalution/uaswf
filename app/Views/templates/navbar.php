@@ -8,6 +8,9 @@
                     <h5 class="sidebar-heading">
                         Site Management
                     </h5>
+                    <a href="<?= base_url('/admin'); ?>" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
+                        <i class="fas fa-chart-line fa-fw me-3"></i><span>Dashboard</span>
+                    </a>
                     <a href="<?= base_url('/admin/users'); ?>" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
                         <i class="fas fa-users fa-fw me-3"></i><span>User List</span>
                     </a>
@@ -15,17 +18,19 @@
                         <i class="fas fa-network-wired fa-fw me-3"></i><span>Lab List</span>
                     </a>
                     <a href="<?= base_url('/admin/acc'); ?>" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
-                        <i class="fas fa-network-wired fa-fw me-3"></i><span>Reserver List</span>
+                        <i class="fas fa-list fa-fw me-3"></i><span>Reservation List</span>
                     </a>
                     <hr>
                 <?php endif; ?>
+                <?php if (in_groups('admin') or in_groups('user_uns') or in_groups('user_non_uns')) : ?>
                 <h5 class="sidebar-heading">
                     User Menu
                 </h5>
                 <a href=" <?php echo base_url('/user/index'); ?>" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
                     <i class="fas fa-user-alt fa-fw me-3"></i><span>My Profile</span>
                 </a>
-                <?php if (!in_groups('admin')) : ?>
+                <?php endif;?>
+                <?php if (in_groups('user_uns') or in_groups('user_non_uns')) : ?>
                     <a href=" <?php echo base_url('/user/reservation'); ?>" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
                         <i class="fas fa-file-invoice fa-fw me-3"></i><span>Reservation</span>
                     </a>
@@ -33,13 +38,26 @@
                         <i class="fas fa-network-wired fa-fw me-3"></i><span>Labs</span>
                     </a>
                     <a href=" <?php echo base_url('/user/history'); ?>" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
-                        <i class="fas fa-network-wired fa-fw me-3"></i><span>Reservation History</span>
+                        <i class="fas fa-list fa-fw me-3"></i><span>Reservation History</span>
                     </a>
                 <?php endif; ?>
+                <?php if (in_groups('admin') or in_groups('user_uns') or in_groups('user_non_uns')) : ?>
                 <hr>
                 <a href=" <?php echo base_url('logout'); ?>" class="list-group-item list-group-item-action py-2 ">
                     <i class="fas fa-sign-out-alt fa-fw me-3"></i><span>Logout </span>
                 </a>
+                <?php endif;?>
+                <?php if (!in_groups('admin') and !in_groups('user_uns') and !in_groups('user_non_uns')) : ?>
+                <a href=" <?php echo base_url('/guest/reservation'); ?>" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
+                    <i class="fas fa-list fa-fw me-3"></i><span>Reservation History</span>
+                </a>
+                <a href=" <?php echo base_url('login'); ?>" class="list-group-item list-group-item-action py-2 ">
+                    <i class="fas fa-sign-in-alt fa-fw me-3"></i><span>Login</span>
+                </a>
+                <a href=" <?php echo base_url('register'); ?>" class="list-group-item list-group-item-action py-2 ">
+                    <i class="fas fa-sign-out-alt fa-fw me-3"></i><span>Register</span>
+                </a>
+                <?php endif;?>
             </div>
         </div>
     </nav>
@@ -55,7 +73,7 @@
             </button>
 
             <!-- Brand -->
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="<?php echo base_url('/'); ?>">
                 <img src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png" height="25" alt="" loading="lazy" />
             </a>
             <!-- Search form -->
@@ -66,6 +84,9 @@
 
             <!-- Right links -->
             <ul class="navbar-nav ms-auto d-flex flex-row">
+                <?php if (user() != null) {?>
+                    
+                
                 <h3><?= user()->username; ?></h3>
                 <!-- Avatar -->
                 <li class="nav-item dropdown">
@@ -73,10 +94,11 @@
                         <img src="<?= base_url(); ?>/img/<?= user()->user_image; ?>" class="rounded-circle" height="22" alt="" loading="lazy" />
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">My profile</a></li>
+                        <li><a class="dropdown-item" href="<?php echo base_url('/user/index'); ?>">My Profile</a></li>
                         <li><a class="dropdown-item" href="<?= base_url('logout'); ?>">Logout</a></li>
                     </ul>
                 </li>
+                <?php }?>
             </ul>
         </div>
         <!-- Container wrapper -->

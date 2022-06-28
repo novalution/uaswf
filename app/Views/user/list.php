@@ -28,13 +28,11 @@
                         <td><?= $item->biaya ?></td>
                         <td>
                             <?php if ($item->status == 'unverif') { ?>
-                                <p style="color:orange" class="fw-bold">Reservasi belum dikonfrimasi</p>
+                                <p style="color:orange" class="fw-bold">Reservasi belum dikonfirmasi</p>
                             <?php } elseif ($item->status == 'verif') { ?>
                                 <p style="color:green" class="fw-bold">Reservasi telah diterima</p>
                             <?php } else { ?>
                                 <p style="color:red" class="fw-bold">Reservasi ditolak</p>
-                        </td>
-                        <td>
                         </td>
                     </tr>
             <?php

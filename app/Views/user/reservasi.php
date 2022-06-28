@@ -1,5 +1,13 @@
 <?= $this->extend('templates/index'); ?>
 <?= $this->section('content'); ?>
+
+<?php 
+$closed_labs = [];
+foreach ($closedLabs as $lab) {
+    array_push($closed_labs, $lab->lab_id);
+}
+?>
+
 <section>
     <main style="margin-top: 58px">
         <div id="booking" class="section">
@@ -34,9 +42,15 @@
                                     <div class="">
                                         <div class="form-group"> <select class="form-control" required id="lab" name="lab">
                                                 <option value="" selected hidden>Pilih Lab</option>
-                                                <option>Software Engineering</option>
-                                                <option>Multimedia Studio</option>
-                                                <option>Computer Work and Instrumentation</option>
+                                                <?php if (!in_array(0, $closed_labs)) {?>
+                                                    <option>Software Engineering</option>
+                                                <?php ;}?>
+                                                <?php if (!in_array(1, $closed_labs)) {?>
+                                                    <option>Multimedia</option>
+                                                <?php ;}?>
+                                                <?php if (!in_array(2, $closed_labs)) {?>
+                                                    <option>Computer Network and Instrumentation</option>
+                                                <?php ;}?>        
                                             </select> <span class="select-arrow"></span> <span class="form-label">Lab</span> </div>
                                     </div>
                                 </div>
@@ -58,8 +72,7 @@
                                         <textarea class="form-control" type="text" id="notes" name="notes"> </textarea>
                                     </div>
                                 </div>
-
-                                <div class="form-btn"> <button class="submit-btn" id="book" name="book">Book Now</button> </div>
+                                <button type="button" id="bookBtn" value="BOOK" name="book" class="btn submit-btn accept" onclick="myFunc()">BOOK</button>
                             </form>
                         </div>
                     </div>
@@ -68,4 +81,22 @@
         </div>
     </main>
 </section>
+
+<script>
+    function myFunc(){
+        Swal.fire({
+                    title: 'Are you sure?',
+                    text: "Check your reservation data.",
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    confirmButtonText: 'Create a Reservation'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        $('#book').submit();
+                    }
+                })
+    };
+</script>
 <?= $this->endSection('content'); ?>

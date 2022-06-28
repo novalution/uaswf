@@ -1,0 +1,17 @@
+ERROR - 2022-06-28 00:09:47 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2022-06-28 00:09:47 --> Duplicate entry '0' for key 'PRIMARY'
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Controllers\Admin.php(231): CodeIgniter\BaseModel->save(Array)
+#9 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->accept('0')
+#10 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#14 {main}

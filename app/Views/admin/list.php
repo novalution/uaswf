@@ -27,8 +27,7 @@
                                 <a href="<?= base_url('admin/users/' . $item->userid) ?>" class="btn btn-primary btn-block">Detail</a>
                             </td>
                         </tr>
-                <?php } else {;
-                    }
+                <?php }
                 }  ?>
             </tbody>
         </table>

@@ -39,12 +39,12 @@ class LoginFilter implements FilterInterface
 			return;
 		}
 
-		// if no user is logged in then send to the login form
-		$authenticate = service('authentication');
-		if (!$authenticate->check()) {
-			session()->set('redirect_url', current_url());
-			return redirect('login');
-		}
+		// // if no user is logged in then send to the login form
+		// $authenticate = service('authentication');
+		// if (!$authenticate->check()) {
+		// 	session()->set('redirect_url', current_url());
+		// 	return redirect('login');
+		// }
 	}
 
 	/**

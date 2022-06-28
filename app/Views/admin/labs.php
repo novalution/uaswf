@@ -43,7 +43,6 @@
                                                 <?php };?>
                                             </tbody>
                                         </table>
-                                        <a class="btn btn-primary" href="<?= base_url('admin/labs/add')?>" role="button">Add Lab</a>
                                     </div>
                                 </div>
                             </div>

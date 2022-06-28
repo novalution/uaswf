@@ -32,19 +32,33 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 
+try {
+    if (user()->username != null) {
+        $routes->get('/', 'User::index');
+    }
+} catch (\Throwable $th) {
+    $routes->get('/', 'Guest::labs');
+}
 
-
-//user
-$routes->get('/', 'User::index');
-$routes->get('/user/index', 'User::index');
+// //user
+// if (empty($err)) {
+//     $routes->get('/', 'User::index');
+// }
+$routes->get('/user/index', 'User::index',  ['filter' => 'role:user_uns,user_non_uns,admin']);
 $routes->get('/user/labs', 'User::labs', ['filter' => 'role:user_uns,user_non_uns']);
 $routes->get('/user/labs/(:segment)', 'User::labDetail/$1', ['filter' => 'role:user_uns,user_non_uns']);
-$routes->get('/user/edit/(:segment)', 'User::edit/$1');
+$routes->get('/user/edit/(:segment)', 'User::edit/$1',  ['filter' => 'role:user_uns,user_non_uns']);
 $routes->get('/user/pesan', 'User::pesan', ['filter' => 'role:user_uns,user_non_uns']);
 $routes->get('/user/data', 'User::getData', ['filter' => 'role:user_uns,user_non_uns']);
 
+//Guest
+$routes->get('/guest', 'Guest::labs');
+$routes->get('/guest/labs', 'Guest::labs');
+$routes->get('/guest/labs/(:segment)', 'Guest::labDetail/$1');
+$routes->get('/guest/reservation', 'Guest::reservation');
+
 // Admin
-$routes->get('/admin', 'Admin::users', ['filter' => 'role:admin']);
+$routes->get('/admin', 'Admin::getDashboardData', ['filter' => 'role:admin']);
 $routes->get('/admin/users', 'Admin::users', ['filter' => 'role:admin']);
 $routes->get('/admin/data', 'Admin::getData', ['filter' => 'role:admin']);
 $routes->delete('/admin/users/delete/(:segment)', 'Admin::delete/$1', ['filter' => 'role:admin']);

@@ -104,7 +104,11 @@ class User extends BaseController
     {
         $data['title'] = 'Jam Reservasi';
         $query = $this->waktuBuilder->get();
+        $this->labsBuilder->select('lab_id');
+        $this->labsBuilder->where('status', 'closed');
+        $labsQuery = $this->labsBuilder->get();
         $data['waktu'] = $query->getResult();
+        $data['closedLabs'] = $labsQuery->getResult();
 
         return view('user/reservasi', $data);
     }
@@ -130,6 +134,7 @@ class User extends BaseController
             return $kode_booking;
         }
 
+        $id_lab = 0;
         $id = $this->request->getVar('id_user');
         $nama = $this->request->getVar('nama');
         $lab = $this->request->getVar('lab');
@@ -146,7 +151,19 @@ class User extends BaseController
         } else {
             $biaya = 'Rp 0';
         }
+        switch ($lab) {
+            case 'Software Engineering':
+                $id_lab = 0;
+                break;
+            case 'Multimedia':
+                $id_lab = 1;
+                break;
+            case 'Computer Network and Instrumentation':
+                $id_lab = 2;
+                break;
+        }
         $input = [
+            'id_lab' => $id_lab,
             'id_user' => $id,
             'kode' => $kode,
             'nama' => $nama,
@@ -208,6 +225,7 @@ class User extends BaseController
             // echo json_encode($hasil);
             return $this->response->setJSON($hasil);
         } else {
+            return view("user/index");
             exit('data tidak dapat diload');
         }
     }

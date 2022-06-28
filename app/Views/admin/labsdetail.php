@@ -44,13 +44,6 @@
                             </div>
                             <div class="row mt-4">
                                 <div class="col"><a href="<?= base_url('admin/labs/edit/' . $lab->lab_id) ?>" class="btn btn-warning btn-block">Edit</a></div>
-                                <div class="col">
-                                    <form action="<?= base_url() ?>/admin/labs/delete/<?= $lab->lab_id; ?>" method="delete" id="delete">
-                                        <input type="hidden" name="_method" value="DELETE">
-                                        <?= csrf_field(); ?>
-                                        <button type="submit" class="btn btn-danger btn-block">Delete</button>
-                                    </form>
-                                </div>
                             </div>
                         </div>
                     </div>

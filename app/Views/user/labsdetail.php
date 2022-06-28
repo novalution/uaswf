@@ -41,11 +41,6 @@
                                     <img src="<?= base_url() ?>\img\<?= $lab->lab_image; ?>" alt="" width="250px">
                                 </div>
                             </div>
-                            <div class="row mt-4">
-                                <?php if ($lab->status == "open") : ?>
-                                <div class="col"><a href="<?= base_url('user/labs/reservation/' . $lab->lab_id) ?>" class="btn btn-warning btn-block">Reservation</a></div>
-                                <?php endif;?>
-                            </div>
                         </div>
                     </div>
                 </div>

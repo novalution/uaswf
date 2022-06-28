@@ -19,6 +19,7 @@ class Admin extends BaseController
         $this->db       = \Config\Database::connect();
         $this->builder = $this->db->table('users');
         $this->labsBuilder = $this->db->table('labs');
+        $this->roleBuilder = $this->db->table('auth_groups_users');
     }
     public function users()
     {
@@ -57,7 +58,7 @@ class Admin extends BaseController
         $data['user'] = $query->getRow();
 
         if (empty($data['user'])) {
-            return redirect()->to('/admin');
+            return redirect()->to('/admin/userlist');
         }
 
         return view('/admin/detail', $data);
@@ -239,5 +240,20 @@ class Admin extends BaseController
             'status' => $status
         ]);
         return redirect()->to('/admin/acc/');
+    }
+    public function getDashboardData()
+    {
+        $this->builder->select('id');
+        $this->builder->where('deleted_at IS NOT NULL');
+        $deletedUserQuery = $this->builder->get();
+        $rsvpQuery = $this->reservasi->get();
+        $roleQuery = $this->roleBuilder->get();
+        $labQuery = $this->labsBuilder->get();
+        $data['deletedUsers'] = $deletedUserQuery->getResult();
+        $data['reservations'] = $rsvpQuery->getResult();
+        $data['roles'] = $roleQuery->getResult();
+        $data['labs'] = $labQuery->getResult();
+
+        return view('/admin/index', $data);
     }
 }
