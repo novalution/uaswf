@@ -59,6 +59,7 @@ $routes->get('/guest/reservation', 'Guest::reservation');
 
 // Admin
 $routes->get('/admin', 'Admin::getDashboardData', ['filter' => 'role:admin']);
+$routes->get('/admin/dashboard', 'Admin::getDashboardData', ['filter' => 'role:admin']);
 $routes->get('/admin/users', 'Admin::users', ['filter' => 'role:admin']);
 $routes->get('/admin/data', 'Admin::getData', ['filter' => 'role:admin']);
 $routes->delete('/admin/users/delete/(:segment)', 'Admin::delete/$1', ['filter' => 'role:admin']);

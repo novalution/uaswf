@@ -44,6 +44,7 @@ class Admin extends BaseController
             // echo json_encode($hasil);
             return $this->response->setJSON($hasil);
         } else {
+            return redirect()->to('/admin/dashboard');
             exit('data tidak dapat diload');
         }
     }

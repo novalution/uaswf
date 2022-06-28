@@ -47,10 +47,14 @@ class AuthController extends Controller
 		// No need to show a login form if the user
 		// is already logged in.
 		if ($this->auth->check()) {
-			$redirectURL = session('redirect_url') ?? site_url('/');
-			unset($_SESSION['redirect_url']);
-
+			if (in_groups('admin')) {
+				$redirectURL = site_url('/admin/dashboard');
+			} else {
+				$redirectURL = session('redirect_url') ?? site_url('/');
+				unset($_SESSION['redirect_url']);
+			}
 			return redirect()->to($redirectURL);
+			
 		}
 
 		// Set a return URL if none is specified
@@ -95,8 +99,12 @@ class AuthController extends Controller
 			return redirect()->to(route_to('reset-password') . '?token=' . $this->auth->user()->reset_hash)->withCookies();
 		}
 
-		$redirectURL = session('redirect_url') ?? site_url('/');
-		unset($_SESSION['redirect_url']);
+		if (in_groups('admin')) {
+			$redirectURL = site_url('/admin/dashboard');
+		} else {
+			$redirectURL = session('redirect_url') ?? site_url('/');
+			unset($_SESSION['redirect_url']);
+		}
 
 		return redirect()->to($redirectURL)->withCookies()->with('message', lang('Auth.loginSuccess'));
 	}
