@@ -50,6 +50,7 @@ $routes->get('/user/labs/(:segment)', 'User::labDetail/$1', ['filter' => 'role:u
 $routes->get('/user/edit/(:segment)', 'User::edit/$1',  ['filter' => 'role:user_uns,user_non_uns']);
 $routes->get('/user/pesan', 'User::pesan', ['filter' => 'role:user_uns,user_non_uns']);
 $routes->get('/user/data', 'User::getData', ['filter' => 'role:user_uns,user_non_uns']);
+$routes->get('/user/datas', 'User::getDatas', ['filter' => 'role:user_uns,user_non_uns']);
 
 //Guest
 $routes->get('/guest', 'Guest::labs');

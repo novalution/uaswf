@@ -207,7 +207,7 @@ class User extends BaseController
     {
         return view('user/history');
     }
-    public function getData($id = 0)
+    public function getData()
     {
         $data['title'] = 'User List';
         if ($this->request->isAJAX()) {
@@ -215,12 +215,37 @@ class User extends BaseController
             //     'list' => $this->ModelUser->find()
             // ];
             $this->reservasi->select('*');
-            $this->reservasi->where('id_user !=', $id);
+            $this->reservasi->where('id_user', user()->id);
             $query = $this->reservasi->get();
             $data['list'] = $query->getResult();
 
             $hasil = [
                 'data' => view('/user/list', $data)
+            ];
+            // echo json_encode($hasil);
+            return $this->response->setJSON($hasil);
+        } else {
+            return view("user/index");
+            exit('data tidak dapat diload');
+        }
+    }
+    public function reserlist()
+    {
+        return view('user/reserlist');
+    }
+    public function getDatas()
+    {
+        $data['title'] = 'User List';
+        if ($this->request->isAJAX()) {
+            // $data = [
+            //     'list' => $this->ModelUser->find()
+            // ];
+            $this->reservasi->select('*');
+            $query = $this->reservasi->get();
+            $data['list'] = $query->getResult();
+
+            $hasil = [
+                'data' => view('/user/listreser', $data)
             ];
             // echo json_encode($hasil);
             return $this->response->setJSON($hasil);

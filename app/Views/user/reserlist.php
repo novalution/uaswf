@@ -8,11 +8,11 @@
                 <div class="row">
                     <div class="col-lg-12 margin-tb">
                         <div class="card">
-                            <h5 class="card-header">My Reservation</h2>
+                            <h5 class="card-header">Reservation List</h2>
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col-lg-12 margin-tb">
-                                            <div id="historydata"></div>
+                                            <div id="reserlist"></div>
                                         </div>
                                     </div>
                                 </div>

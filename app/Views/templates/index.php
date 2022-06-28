@@ -19,7 +19,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- Highchart script -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <script src="https://code.highcharts.com/modules/exporting.js"></script>
     <script src="https://code.highcharts.com/modules/export-data.js"></script>
@@ -69,6 +69,20 @@
 
     $(document).ready(function() {
         tamplikan();
+    });
+
+    function tampilin() {
+        $.ajax({
+            url: "<?= base_url('/user/datas') ?>",
+            dataType: "json",
+            success: function(response) {
+                $('#reserlist').html(response.data);
+            }
+        });
+    }
+
+    $(document).ready(function() {
+        tampilin();
     });
 </script>
 <!-- <script type="text/javascript" src="<?= base_url('/node_modules/sweetalert2/dist/sweetalert2.min.js'); ?>"></script> -->
