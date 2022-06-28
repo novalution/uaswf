@@ -114,7 +114,7 @@
                 <div class="section_title text-center mb-55" style="margin-bottom: 4rem;">
                     <h1 style="margin-bottom: 1rem;margin-top: 3rem;">Fasilitas Lab Kami</h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque aspernatur ipsam a amet nesciunt reiciendis aliquid maxime laboriosam quisquam, cupiditate illo cumque dolorem, maiores debitis placeat ex deleniti impedit modi?
+                        Kami memberikan fasilitas pelayanan peminjaman laboratorium PTIK untuk member civitas kampus baik UNS maupun non UNS. Reservasi/peminjaman oleh member UNS diberikan gratis sedangkan untuk member non-uns terdapat biaya sewa. Kami memliki 3 buah laboratorium sebagai berikut. 
                     </p>
                 </div>
             </div>
@@ -122,23 +122,23 @@
         <div class="row">
             <div class="col-lg-4 text-center">
                 <img src="img/lab-m.webp" alt="" class=" img-fluid" width="140" height="140">
-                <h2>ini diganti nama lab</h2>
+                <h2>Software Engineering</h2>
                 <p class="text-justify">
-                    ini diganti juga deskripsine
+                    Software Engineering menyediakan komputer yang memadai biasa digunakan untuk perkuliahan pemrogramman.
                 </p>
             </div>
             <div class="col-lg-4 text-center">
                 <img src="img/lab-b.webp" alt="" class=" img-fluid" width="140" height="140">
-                <h2>ini diganti nama lab</h2>
+                <h2>Multimedia Studio</h2>
                 <p class="text-justify">
-                    ini diganti juga deskripsine
+                    Multimedia Studio menyediakan peralatan multimedia yang memadai seperti komputer dengan spesifikasi mumpuni, peralatan fotografi dan peralatan broadcasting. Berbagai kegiatan yang dapat dilakukan di multimedia studio ini yaitu seperti fotografi, pembuatan animasi, broadcasting, hingga pembuatan video streaming.
                 </p>
             </div>
             <div class="col-lg-4 text-center">
                 <img src="img/lab-m.webp" alt="" class=" img-fluid" width="140" height="140">
-                <h2>ini diganti nama lab</h2>
+                <h2>Computer Network and Instrumentation</h2>
                 <p class="text-justify">
-                    ini diganti juga deskripsine
+                    Computer Network and Instrumentation menyediakan fasilitas komputer yang memadai dan berbagai peralatan jaringan seperti router, switch, dan sebagainya biasa digunakan untuk perkuliahan jaringan komputer.
                 </p>
             </div>
         </div>
