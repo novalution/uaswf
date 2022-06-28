@@ -67,7 +67,18 @@ foreach ($roles as $role) {
                 <hr>
                 <div class="row">
                     <div class="col-sm">
-                        <div id="user-chart" style="height: 300px; width: 100%;"></div>
+                        <div id="active-user-chart" style="height: 300px; width: 100%;"></div>
+                    </div>
+                    <div class="col-sm">
+                        <div id="user-access-chart" style="height: 300px; width: 100%;"></div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <hr>
+                <div class="row">
+                    <div class="col-sm">
+                        <div id="rsvp-by-time" style="height: 300px; width: 100%;"></div>
                     </div>
                 </div>
                 <br>
@@ -87,7 +98,7 @@ foreach ($roles as $role) {
 </section>
 
 <script>
-    Highcharts.chart('user-chart', {
+    Highcharts.chart('active-user-chart', {
     chart: {
         plotBackgroundColor: null,
         plotBorderWidth: null,
@@ -131,12 +142,116 @@ foreach ($roles as $role) {
     }]
 });
 
+Highcharts.chart('user-access-chart', {
+    chart: {
+        type: 'column'
+    },
+    title: {
+        text: '<b>User Access</b>'
+    },
+    xAxis: {
+        categories: [
+            'Time'
+        ],
+        crosshair: true,
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Total User'
+        },
+        tickInterval: 1 
+    },
+    tooltip: {
+        headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+        pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+            '<td style="padding:0"><b>{point.y} users</b></td></tr>',
+        footerFormat: '</table>',
+        shared: true,
+        useHTML: true
+    },
+    plotOptions: {
+        column: {
+            pointPadding: 0.2,
+            borderWidth: 0
+        }
+    },
+    series: [{
+        name: 'Today',
+        data: [<?php echo $dailyAccess?>],
+        color: '#fd9644'
+
+    }, {
+        name: 'This Month',
+        data: [<?php echo $monthlyAccess?>],
+        color: '#d1d8e0'
+
+    }, {
+        name: 'This Year',
+        data: [<?php echo $yearlyAccess?>],
+        color: '#0fb9b1'
+
+    }]
+});
+
+Highcharts.chart('rsvp-by-time', {
+    chart: {
+        type: 'column'
+    },
+    title: {
+        text: '<b>Verified Reservation by Time </b>'
+    },
+    xAxis: {
+        categories: [
+            'Time'
+        ],
+        crosshair: true,
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Total Reservation'
+        },
+        tickInterval: 1 
+    },
+    tooltip: {
+        headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+        pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+            '<td style="padding:0"><b>{point.y} reservations</b></td></tr>',
+        footerFormat: '</table>',
+        shared: true,
+        useHTML: true
+    },
+    plotOptions: {
+        column: {
+            pointPadding: 0.2,
+            borderWidth: 0
+        }
+    },
+    series: [{
+        name: 'Today',
+        data: [<?php echo $dailyRsvp?>],
+        color: '#3867d6'
+
+    }, {
+        name: 'This Month',
+        data: [<?php echo $monthlyRsvp?>],
+        color: '#4b6584'
+
+    }, {
+        name: 'This Year',
+        data: [<?php echo $yearlyRsvp?>],
+        color: '#a55eea'
+
+    }]
+});
+
 Highcharts.chart('rsvp-status-chart', {
     chart: {
         type: 'column'
     },
     title: {
-        text: '<b>Reservation Status</b>'
+        text: '<b>Reservation Status </b>'
     },
     xAxis: {
         categories: [
@@ -188,7 +303,7 @@ Highcharts.chart('rsvp-labs', {
         type: 'column'
     },
     title: {
-        text: '<b>Verified Laboratory Reservation</b>'
+        text: '<b>Verified Reservation Each Laboratory </b>'
     },
     xAxis: {
         categories: [

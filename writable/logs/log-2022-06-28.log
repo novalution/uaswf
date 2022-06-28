@@ -63,3 +63,81 @@ CRITICAL - 2022-06-28 10:44:10 --> Trying to get property 'id' of non-object
 #8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
 #10 {main}
+ERROR - 2022-06-28 12:35:44 --> Unknown column 'date' in 'where clause'
+CRITICAL - 2022-06-28 12:35:44 --> Unknown column 'date' in 'where clause'
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Controllers\Admin.php(313): CodeIgniter\Model->countAllResults()
+#6 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->getDashboardData()
+#7 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#11 {main}
+CRITICAL - 2022-06-28 12:42:49 --> Undefined variable $yearlyAccess
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Views\admin\index.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Kuliah\\Smt 6...', 183)
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(210): include('D:\\Kuliah\\Smt 6...')
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('/admin/index', Array, true)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Controllers\Admin.php(315): view('/admin/index', Array)
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->getDashboardData()
+#6 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#10 {main}
+ERROR - 2022-06-28 12:46:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MONTH(date) = 06' at line 3
+CRITICAL - 2022-06-28 12:46:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MONTH(date) = 06' at line 3
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Controllers\Admin.php(297): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->getDashboardData()
+#6 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#10 {main}
+ERROR - 2022-06-28 12:47:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'EXTRACT(MONTH from date) = 06' at line 3
+CRITICAL - 2022-06-28 12:47:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'EXTRACT(MONTH from date) = 06' at line 3
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Controllers\Admin.php(297): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->getDashboardData()
+#6 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#10 {main}
+ERROR - 2022-06-28 12:48:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MONTH(date) = 06' at line 3
+CRITICAL - 2022-06-28 12:48:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MONTH(date) = 06' at line 3
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Controllers\Admin.php(297): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->getDashboardData()
+#6 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#10 {main}
+ERROR - 2022-06-28 12:49:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'month(date) = 06' at line 3
+CRITICAL - 2022-06-28 12:49:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'month(date) = 06' at line 3
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\app\Controllers\Admin.php(297): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): App\Controllers\Admin->getDashboardData()
+#6 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#10 {main}

@@ -82,11 +82,11 @@
 
 
             <!-- Right links -->
-            <ul class="navbar-nav ms-auto d-flex flex-row">
+            <ul class="navbar-nav ms-auto d-flex flex-row align-middle">
                 <?php if (user() != null) { ?>
 
 
-                    <h3><?= user()->username; ?></h3>
+                    <li><h5 class="mt-2"><?= user()->username; ?></h5></li>
                     <!-- Avatar -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle hidden-arrow d-flex align-items-center" href="#" id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
