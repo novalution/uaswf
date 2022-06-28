@@ -11,6 +11,10 @@ class Guest extends BaseController
         $this->reservasi = $this->db->table('reservasi');
     }
 
+    public function index()
+    {
+        return view('index');
+    }
     public function labs()
     {
         $data['title'] = 'Lab List';

@@ -15,3 +15,51 @@ CRITICAL - 2022-06-28 00:09:47 --> Duplicate entry '0' for key 'PRIMARY'
 #12 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #13 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
 #14 {main}
+CRITICAL - 2022-06-28 10:30:49 --> Undefined variable: img
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Views\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ASUS\\D...', 44, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\Guest.php(16): view('index')
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\Guest->index()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-28 10:37:45 --> Trying to get property 'username' of non-object
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Views\user\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Users\\ASUS\\D...', 8, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('user/index', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(29): view('user/index', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-28 10:40:17 --> Trying to get property 'id' of non-object
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Views\user\reservasi.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Users\\ASUS\\D...', 22, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('user/reservasi', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(113): view('user/reservasi', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->reservation()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2022-06-28 10:44:10 --> Trying to get property 'id' of non-object
+#0 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Views\user\reservasi.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Users\\ASUS\\D...', 22, Array)
+#1 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(210): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Common.php(1089): CodeIgniter\View\View->render('user/reservasi', Array, true)
+#4 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\app\Controllers\User.php(113): view('user/reservasi', Array)
+#5 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(832): App\Controllers\User->reservation()
+#6 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Documents\tugas\tugas web framework\tugas\uaswf\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}

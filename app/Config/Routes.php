@@ -37,7 +37,7 @@ try {
         $routes->get('/', 'User::index');
     }
 } catch (\Throwable $th) {
-    $routes->get('/', 'Guest::labs');
+    $routes->get('/', 'Guest::index');
 }
 
 // //user
@@ -53,6 +53,7 @@ $routes->get('/user/data', 'User::getData', ['filter' => 'role:user_uns,user_non
 $routes->get('/user/datas', 'User::getDatas', ['filter' => 'role:user_uns,user_non_uns']);
 
 //Guest
+$routes->get('/', 'Guest::index');
 $routes->get('/guest', 'Guest::labs');
 $routes->get('/guest/labs', 'Guest::labs');
 $routes->get('/guest/labs/(:segment)', 'Guest::labDetail/$1');

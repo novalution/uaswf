@@ -1,0 +1,410 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff !important;
+}
+.navbar {
+    background: #F4F4F4;
+    padding-right: 6rem !important;
+}
+.dropdown-menu {
+    background-color: #F4F4F4 !important;
+    border: none !important;
+    border-bottom: #c5c5c5 solid 1px !important;
+}
+.dropdown-menu .active {
+    background-color: #F4F4F4 !important;
+    border: none !important;
+}
+.dropdown-menu:hover .active:hover {
+    background-color: #F4F4F4 !important;
+    border: none !important;
+}
+.sosmed {
+	position: fixed;
+	z-index:9;
+	width: 100%;
+	text-align: center;
+	bottom: 0;
+}
+h6{
+    font-weight: 700 !important;
+}
+h2, h3 {
+    margin-top: 2rem !important;
+    color: #28abb9;
+}
+h1 {
+    letter-spacing: .1rem !important;
+    color:#28abb9;
+    font-weight: bolder !important;
+    margin-bottom: 1rem !important;
+}
+   
+.isi-sosmed {
+    height: 36px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    color: #fff;
+    background: rgb(152,226,227);
+    background: linear-gradient(0deg, rgba(152,226,227,0.5105392498796393) 0%, rgba(78,205,207,0.5357493339132529) 0%);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.nav-link,.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: .5rem !important;
+    color:#28abb9;
+}
+.nav-item .active{
+    color: #d7385e !important;
+    border-bottom-color: solid #28abb9 !important;
+}
+.nav-link:hover {
+    color: #d7385e;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.navbar .nav-item:not(:last-child) {
+    margin-right: 35px;
+}
+  
+.dropdown-toggle::after {
+     transition: transform 0.15s linear; 
+}
+  
+.show.dropdown .dropdown-toggle::after {
+    transform: translateY(3px);
+}
+  
+.dropdown-menu {
+    margin-top: 0;
+}
+.dropdown-item{
+    color: #28abb9 !important;
+    margin-bottom: 1rem;
+}
+.dropdown-item:hover{
+    color: #d7385e !important;
+}
+.navbar-togler{
+    color: #d7385e !important;
+}
+.page-footer {
+    background-color: #85F4FF;
+
+    padding: 40px 0px 0px 0px;
+}
+
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center !important;
+    text-decoration: none;
+    border-radius: 60%;
+    margin-right: .3rem;
+    color: white;
+    margin-bottom: 2rem;
+  }
+.fa:hover{
+    color: white;
+    text-decoration: none;
+}
+.fa-facebook {
+    height: 35px !important;
+    width: 33px;
+    background: #3B5998;
+    color: white;
+}
+  .fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.accent-2{
+    color: #bb0000 !important;
+}
+
+.section-xl{
+    margin:3rem 0;
+}
+.media-left{
+    margin-right: 1rem;
+} 
+.container{
+    margin-bottom: 3rem;
+}
+.jumbotron{
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.14); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.14);
+}
+.stretched-link:hover{
+    text-decoration: none;
+}
+.card{
+    -webkit-box-shadow: 8px 17px 10px -5px rgba(0,0,0,0.17); 
+    box-shadow: 8px 17px 10px -5px rgba(0,0,0,0.17);
+}
+.card-img, .card-img-bottom, .card-img-top {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 100%;
+    height: 190px;
+}
+.col-sm-8, .col-lg-4{
+    margin-bottom: 4rem;
+}
+.selction-xl {
+    margin-top: 5rem;
+}
+.button_reservasi{
+    background-color: #d7385e !important;
+    border-color: white !important;
+}
+.button_reservasi:hover{
+    background-color: white !important;
+    border-color: #d7385e !important; 
+    color: #d7385e !important; 
+}
+.header_about_us{
+    padding: 0!important;
+}
+.bg-overlay {
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(asset/images/inaboutterior-view-operating-room_67340-34.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-position: center center;
+    color: #fff;
+    width: 200px !important;
+    height: 211px !important;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    background-size: 79rem 18rem !important;
+    padding: 0 !important;
+    margin-bottom: 0;
+}
+.about_p{
+    color: #0f4046;
+    padding-top: 3rem !important;
+    padding-left: 2rem !important;
+    font-size: 3.5rem;
+}
+.container_moto{
+    padding: 0rem 0rem 3rem 0rem !important;
+    margin: 0rem !important;
+}
+p.p_motto {
+    font-size: x-large;
+}
+.section-xl{
+    margin: 5rem 0rem !important;
+}
+
+img.img_doctor {
+    height: 9rem !important;
+}
+.card{
+    margin: 2rem 0rem !important;
+}
+.badge-primary{
+    background-color: #d7385e !important;
+}
+.show {
+    display: block;
+  }
+.tabel_jadwal{
+    width: 100% !important;
+}
+.select_doctor{
+    border: 2px solid #28abb9 !important;
+}
+.department_area {
+    background-color: floralwhite;
+}
+.my-custom-scrollbar {
+    position: relative;
+    height: 500px;
+    overflow: auto;
+}
+    .table-wrapper-scroll-y {
+    display: block;
+}
+#accordion_title{
+    text-decoration: none !important;
+    color: white !important;
+}
+.page-item.active .page-link{
+    background-color: #d7385e !important;
+    border-color: white !important;
+}
+.page-link{
+    color: #d7385e !important   ;
+}
+.page-item.active .page-link{
+    color: white !important;
+}
+img.card-img-top.img-fluid.img_award {
+    padding: 1rem;
+    height: 10rem;
+    width: 10rem;
+}
+.section-l{
+    margin: 4rem;
+}
+.col-lg-8.galeri-ket {
+    padding: 4rem 1rem;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .content {
+    display: none;
+  }
+  #loadMore {
+    width: 200px;
+    color: white !important;
+    background-color: #d7385e !important;
+    border-color: white !important;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: .3s;
+  }
+  #loadMore:hover {
+    background-color: white !important;
+    border-color: #d7385e !important; 
+    color: #d7385e !important; 
+    text-decoration: none;
+  }
+  .noContent {
+    color: #000 !important;
+    background-color: transparent !important;
+    pointer-events: none;
+  }.col-lg-4.col_contact {
+    border: solid 2px #125688;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+button.btn.btn-primary.btn_massage {
+    margin-left: 14rem;
+}
+.col-lg-7.col_massage {
+    border: solid 2px #125688;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.pendaftaran_col.text-center {
+        margin: 0!important;
+        padding: 2rem;
+        background-color: #28abb9   ;
+        color: white !important;
+}
+a.dropdown-item:hover {
+    background-color: white !important;
+}
+.dropdown-item.active, .dropdown-item:active {
+    background-color: white !important;
+    color: #d7385e !important;
+}
+@media all and (max-width: 968px) {
+    .navbar {
+        padding-right: 10px !important;
+    }
+    .nav-link {
+        margin-right: 0 !important;
+        color:#28abb9;
+    }
+    .navbar .nav-item:not(:last-child) {
+        margin-right: 40px !important;
+    }
+    h1 {
+        letter-spacing: 0rem !important;
+    }  
+    .sosmed {
+        position: fixed;
+        z-index: 9;
+        width: 41%;
+        text-align: center;
+        bottom: 0;
+        text-align: center;
+        margin-left: 140px; 
+    }
+    .isi-sosmed {
+        height: 25px;
+        width: 100% !important;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px;
+        color: #fff;
+        background: rgb(152,226,227);
+        background: linear-gradient(0deg, rgba(152,226,227,0.5105392498796393) 0%, rgba(78,205,207,0.5357493339132529) 0%);
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        text-align: center;
+        font-size: 10px;
+    }
+    .custom.navbar-toggler-icon{
+        background-color: #28abb9 !important;
+    }
+    .about_p{
+        color: #0f4046;
+        padding-top: 3rem !important;
+        padding-left: 2rem !important;
+        font-size: 2rem;
+    }
+    .bg-overlay{
+        background-size: 30rem 8rem !important;
+        width: 200px !important;
+        height: 121px !important;   
+    }
+    .row{
+        margin: 1rem 1rem !important;
+    }
+    #desc_doctor{
+        display: none !important;
+    }
+    .carousel_testi{
+        height: 70rem !important;
+
+    }
+    .testi_slide_photo{
+        margin-bottom: -12rem !important;
+    }
+    .col-lg-8.galeri-ket {
+        padding: 0rem;
+    }
+    button.btn.btn-primary.btn_massage {
+        margin-left: 2rem;
+    }
+
+}
+
