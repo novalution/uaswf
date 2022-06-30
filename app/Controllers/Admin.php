@@ -60,7 +60,7 @@ class Admin extends BaseController
         $data['user'] = $query->getRow();
 
         if (empty($data['user'])) {
-            return redirect()->to('/admin/userlist');
+            return redirect()->to('/admin/users');
         }
 
         return view('/admin/detail', $data);
@@ -248,11 +248,6 @@ class Admin extends BaseController
         $now = date("Y-m-d");
         $year = date("Y");
         $month = date("m");
-        // $oneMonthBefore = strtotime('-1 month', $now);
-        // $oneMonthAfter = strtotime('+1 month', $now);
-        // $oneYearBefore = strtotime('-1 year', $now);
-        // $oneYearAfter = strtotime('+1 year', $now);
-
         $this->builder->select('id');
         $this->builder->where('deleted_at IS NOT NULL');
         $deletedUserQuery = $this->builder->get();
@@ -263,30 +258,6 @@ class Admin extends BaseController
         $data['reservations'] = $rsvpQuery->getResult();
         $data['roles'] = $roleQuery->getResult();
         $data['labs'] = $labQuery->getResult();
-
-        // //User access data, daily
-        // $this->accessBuilder->where('date = '.date("Y-m-d").' AND success = 1');
-        // $data['dailyAccess'] = $this->accessBuilder->countAllResults();
-
-        // //User access data, monthly
-        // $this->accessBuilder->where('date BETWEEN '.$oneMonthBefore.' AND '.$now.' AND success = 1');
-        // $data['monthlyAccess'] = $this->accessBuilder->countAllResults();
-
-        // //User access data, yearly
-        // $this->accessBuilder->where('date BETWEEN '.$oneYearBefore.' AND '.$now.' AND success = 1');
-        // $data['yearlyAccess'] = $this->accessBuilder->countAllResults();
-
-        // //Daily reservation
-        // $this->reservasi->where('tanggal', $now);
-        // $data['dailyRsvp'] = $this->reservasi->countAllResults();
-
-        // //Monthly reservation
-        // $this->reservasi->where('tanggal BETWEEN '.$oneMonthBefore.' AND '.$now.' AND status = "verif"');
-        // $data['dailyRsvp'] = $this->reservasi->countAllResults();
-
-        // //Yearly reservation
-        // $this->reservasi->where('tanggal BETWEEN '.$oneMonthBefore.' AND '.$now.' AND status = "verif"');
-        // $data['dailyRsvp'] = $this->reservasi->countAllResults();
 
         //User access data, daily
         $this->accessBuilder->where('DATE_FORMAT(date, "%Y-%m-%d")', $now);
