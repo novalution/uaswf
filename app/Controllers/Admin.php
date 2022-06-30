@@ -197,7 +197,7 @@ class Admin extends BaseController
         } else {
             $namaavatar = $this->request->getVar('avalama');
         }
-        if ($this->request->getVar('password') != $this->request->getVar('passlama')) {
+        if ($this->request->getVar('password') != null and $this->request->getVar('password') != $this->request->getVar('passlama')) {
             // $pass = password_hash($this->request->getVar('password'), PASSWORD_DEFAULT);
             $pass = Password::hash($this->request->getVar('password'));
         } else {

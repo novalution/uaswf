@@ -52,10 +52,12 @@
                                 <div class="form-group mb-2">
                                     <label for="password"><?= lang('Auth.password') ?></label>
                                     <input type="password" name="password" class="form-control <?php if (session('errors.password')) : ?>is-invalid<?php endif ?>" placeholder="<?= lang('Auth.password') ?>" autocomplete="off">
+                                    <small id="passwordHelp" class="form-text text-muted">Minimum 8 characters.</small>
                                 </div>
                                 <div class="align-items-center mb-4">
                                     <label for="user_image" class="col-form-label">Foto</label>
                                     <input type="file" class="form-control" id="user_image" name="user_image" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                                    <small id="imageHelp" class="form-text text-muted">Maximum size 500KB.</small>
                                 </div>
                                 <br>
                                 <input type="hidden" id="passlama" name="passlama" value="<?= user()->password_hash; ?>" />
