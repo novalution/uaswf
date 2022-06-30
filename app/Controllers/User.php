@@ -114,7 +114,6 @@ class User extends BaseController
     }
     public function pesan()
     {
-
         // Tentukan panjang / length - nya
         $panjang = 5;
 
@@ -179,9 +178,12 @@ class User extends BaseController
         ];
         $this->reservasi->select('*');
         $this->reservasi->where('id_user', $id);
+        $this->reservasi->where('tanggal', $tanggal);
         $query = $this->reservasi->get();
         if (count($query->getResult()) > 4) {
             echo ('gagal');
+            $data['status'] = 'gagal';
+            return view('user/history', $data);
         } else {
             $this->reservasi->select('*');
             $this->reservasi->where('nama_lab', $lab);

@@ -6,6 +6,7 @@ $closed_labs = [];
 foreach ($closedLabs as $lab) {
     array_push($closed_labs, $lab->lab_id);
 }
+
 ?>
 
 <section>
@@ -91,7 +92,7 @@ foreach ($closedLabs as $lab) {
                                         <textarea class="form-control" type="text" id="notes" name="notes"> </textarea>
                                     </div>
                                 </div>
-                                <button type="button" id="bookBtn" value="BOOK" name="book" class="btn submit-btn accept" onclick="myFunc()">BOOK</button>
+                                <button type="button" id="bookBtn" value="BOOK" name="book" class="btn submit-btn btn-primary accept mt-2" onclick="myFunc()">BOOK</button>
                             </form>
                         </div>
                     </div>
@@ -117,5 +118,6 @@ foreach ($closedLabs as $lab) {
                     }
                 })
     };
+
 </script>
 <?= $this->endSection('content'); ?>

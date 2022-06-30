@@ -23,5 +23,23 @@
         </div>
     </main>
 </section>
+<?php 
+try {
+    if ($status == "gagal") {
+} 
+?>
+<script>
+    Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'You have reached maximum daily reservation (5 hour)!'
+    })
+</script>
+<?php }
+catch (\Throwable $th) {
+    //throw $th;
+}?>
+
+
 
 <?= $this->Endsection("content") ?>
