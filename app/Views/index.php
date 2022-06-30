@@ -31,7 +31,9 @@
                     <a class="nav-link" href="#fasilitas">Fasilitas</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="<?php echo base_url('/guest/reservation'); ?>">Jadwal Peminjaman</a>
+                    <a class="nav-link" href="<?php if (user() != null) {
+                        echo base_url('/user/reserlist');
+                    } ?>">Jadwal Peminjaman</a>
                 </li>
                 <?php if (!logged_in()) { ?>
                     <li>
