@@ -291,3 +291,20 @@ CRITICAL - 2022-06-30 09:42:11 --> explode(): Passing null to parameter #2 ($str
 #5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #6 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
 #7 {main}
+ERROR - 2022-06-30 09:54:11 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2022-06-30 09:54:11 --> Duplicate entry '0' for key 'PRIMARY'
+#0 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+#8 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\vendor\myth\auth\src\Controllers\AuthController.php(247): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+#9 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#10 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\Kuliah\Smt 6\pemweb framework\uas\uaswf\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Smt 6...')
+#14 {main}
