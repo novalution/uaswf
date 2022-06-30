@@ -33,7 +33,9 @@
                 <li class="nav-item ">
                     <a class="nav-link" href="<?php if (user() != null) {
                         echo base_url('/user/reserlist');
-                    } ?>">Jadwal Peminjaman</a>
+                    } else {
+                        echo base_url('/guest/reservation');
+                    }?>">Jadwal Peminjaman</a>
                 </li>
                 <?php if (!logged_in()) { ?>
                     <li>
